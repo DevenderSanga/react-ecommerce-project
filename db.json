@@ -1,0 +1,3187 @@
+{
+  "products": [
+    {
+      "id": "101",
+      "name": "Samsung Galaxy S24",
+      "slug": "samsung-galaxy-s24",
+      "brand": "Samsung",
+      "category": "Electronics",
+      "subCategory": "Smartphones",
+      "images": [
+        "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf",
+        "https://images.unsplash.com/photo-1598327105666-5b89351aff97",
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+        "https://images.unsplash.com/photo-1565849904461-04a58ad377e0"
+      ],
+      "price": 74999,
+      "originalPrice": 84999,
+      "discountPercentage": 12,
+      "discountAmount": 10000,
+      "currency": "INR",
+      "rating": 4.6,
+      "totalReviews": 1248,
+      "totalRatings": 1398,
+      "stock": 20,
+      "stockStatus": "In Stock",
+      "availability": true,
+      "shortDescription": "Powerful Android smartphone with a premium display.",
+      "description": "Samsung Galaxy S24 delivers flagship performance with an AMOLED display and advanced cameras.",
+      "colors": [
+        {
+          "name": "Black",
+          "value": "#000000",
+          "available": true,
+          "additionalPrice": 0
+        },
+        {
+          "name": "Blue",
+          "value": "#3F51B5",
+          "available": true,
+          "additionalPrice": 0
+        }
+      ],
+      "variants": [
+        {
+          "value": "128GB",
+          "price": 74999,
+          "available": true
+        },
+        {
+          "value": "256GB",
+          "price": 84999,
+          "available": true
+        }
+      ],
+      "specifications": {
+        "display": "6.2-inch Dynamic AMOLED 2X",
+        "processor": "Snapdragon 8 Gen 3",
+        "ram": "8GB",
+        "storage": "128GB",
+        "rearCamera": "50MP + 12MP + 10MP",
+        "battery": "4000 mAh",
+        "operatingSystem": "Android"
+      },
+      "features": [
+        "AMOLED Display",
+        "50MP Camera",
+        "5G",
+        "Fast Charging",
+        "Water Resistant"
+      ],
+      "boxContents": [
+        "Phone",
+        "USB Cable",
+        "Documentation"
+      ],
+      "warranty": {
+        "available": true,
+        "duration": "1 Year",
+        "type": "Manufacturer Warranty"
+      },
+      "delivery": {
+        "freeDelivery": true,
+        "estimatedDelivery": "2-4 Business Days",
+        "cashOnDelivery": true,
+        "returnAvailable": true,
+        "returnPeriod": "7 Days"
+      },
+      "seller": {
+        "name": "Samsung Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "offers": [
+        {
+          "title": "Bank Offer",
+          "description": "Get instant discount on selected bank cards.",
+          "type": "bank"
+        },
+        {
+          "title": "EMI Offer",
+          "description": "No-cost EMI available on selected cards.",
+          "type": "emi"
+        }
+      ],
+      "tags": [
+        "Samsung",
+        "Smartphone",
+        "5G",
+        "AMOLED"
+      ],
+      "isFeatured": true,
+      "isBestSeller": true,
+      "isNew": true,
+      "isWishlisted": false,
+      "seo": {
+        "title": "Samsung Galaxy S24 - Buy Online",
+        "description": "Powerful Android smartphone with a premium display.",
+        "keywords": [
+          "Samsung",
+          "Smartphone",
+          "5G",
+          "AMOLED"
+        ]
+      },
+      "reviews": [
+        {
+          "id": 1011,
+          "userName": "Rahul",
+          "rating": 5,
+          "title": "Excellent product",
+          "comment": "Very good quality and performance.",
+          "date": "2026-08-21",
+          "verifiedPurchase": true
+        },
+        {
+          "id": 1012,
+          "userName": "Priya",
+          "rating": 4,
+          "title": "Good product",
+          "comment": "Good product for the price.",
+          "date": "2026-08-18",
+          "verifiedPurchase": true
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "name": "Men Casual Shirt",
+      "slug": "men-casual-shirt",
+      "brand": "Levis",
+      "category": "Men",
+      "subCategory": "Shirts",
+      "images": [
+        "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf",
+        "https://images.unsplash.com/photo-1596755094514-f87e34085b2c",
+        "https://images.unsplash.com/photo-1603252109303-2751441dd157",
+        "https://images.unsplash.com/photo-1589310243389-96a5483213a8"
+      ],
+      "price": 1499,
+      "originalPrice": 2499,
+      "discountPercentage": 40,
+      "discountAmount": 1000,
+      "currency": "INR",
+      "rating": 4.4,
+      "totalReviews": 532,
+      "totalRatings": 682,
+      "stock": 20,
+      "stockStatus": "In Stock",
+      "availability": true,
+      "shortDescription": "Comfortable cotton casual shirt for men.",
+      "description": "Stylish regular-fit cotton shirt suitable for casual and everyday wear.",
+      "colors": [
+        {
+          "name": "Blue",
+          "value": "#4169E1",
+          "available": true,
+          "additionalPrice": 0
+        },
+        {
+          "name": "White",
+          "value": "#FFFFFF",
+          "available": true,
+          "additionalPrice": 0
+        }
+      ],
+      "variants": [
+        {
+          "value": "M",
+          "price": 1499,
+          "available": true
+        },
+        {
+          "value": "L",
+          "price": 1499,
+          "available": true
+        },
+        {
+          "value": "XL",
+          "price": 1599,
+          "available": true
+        }
+      ],
+      "specifications": {
+        "material": "100% Cotton",
+        "fit": "Regular Fit",
+        "sleeves": "Full Sleeves",
+        "pattern": "Solid",
+        "washCare": "Machine Wash"
+      },
+      "features": [
+        "Premium Cotton",
+        "Regular Fit",
+        "Breathable Fabric",
+        "Casual Style"
+      ],
+      "boxContents": [
+        "Shirt",
+        "Brand Tag"
+      ],
+      "warranty": {
+        "available": true,
+        "duration": "1 Year",
+        "type": "Manufacturer Warranty"
+      },
+      "delivery": {
+        "freeDelivery": true,
+        "estimatedDelivery": "2-4 Business Days",
+        "cashOnDelivery": true,
+        "returnAvailable": true,
+        "returnPeriod": "7 Days"
+      },
+      "seller": {
+        "name": "Levis Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "offers": [
+        {
+          "title": "Bank Offer",
+          "description": "Get instant discount on selected bank cards.",
+          "type": "bank"
+        },
+        {
+          "title": "EMI Offer",
+          "description": "No-cost EMI available on selected cards.",
+          "type": "emi"
+        }
+      ],
+      "tags": [
+        "Men",
+        "Shirt",
+        "Cotton",
+        "Casual"
+      ],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "isNew": false,
+      "isWishlisted": false,
+      "seo": {
+        "title": "Men Casual Shirt - Buy Online",
+        "description": "Comfortable cotton casual shirt for men.",
+        "keywords": [
+          "Men",
+          "Shirt",
+          "Cotton",
+          "Casual"
+        ]
+      },
+      "reviews": [
+        {
+          "id": 1021,
+          "userName": "Rahul",
+          "rating": 5,
+          "title": "Excellent product",
+          "comment": "Very good quality and performance.",
+          "date": "2026-08-21",
+          "verifiedPurchase": true
+        },
+        {
+          "id": 1022,
+          "userName": "Priya",
+          "rating": 4,
+          "title": "Good product",
+          "comment": "Good product for the price.",
+          "date": "2026-08-18",
+          "verifiedPurchase": true
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "name": "Men Slim Fit Jeans",
+      "slug": "men-slim-fit-jeans",
+      "brand": "Wrangler",
+      "category": "Men",
+      "subCategory": "Jeans",
+      "images": [
+        "https://images.unsplash.com/photo-1542272604-787c3835535d",
+        "https://images.unsplash.com/photo-1475178626620-a4d074967452",
+        "https://images.unsplash.com/photo-1541099649105-f69ad21f3246",
+        "https://images.unsplash.com/photo-1602293589930-45aad59ba3ab"
+      ],
+      "price": 1999,
+      "originalPrice": 2999,
+      "discountPercentage": 33,
+      "discountAmount": 1000,
+      "currency": "INR",
+      "rating": 4.3,
+      "totalReviews": 421,
+      "totalRatings": 571,
+      "stock": 20,
+      "stockStatus": "In Stock",
+      "availability": true,
+      "shortDescription": "Classic slim-fit jeans for men.",
+      "description": "Durable denim jeans designed for comfort and everyday styling.",
+      "colors": [
+        {
+          "name": "Blue",
+          "value": "#1E3A5F",
+          "available": true,
+          "additionalPrice": 0
+        },
+        {
+          "name": "Black",
+          "value": "#111111",
+          "available": true,
+          "additionalPrice": 0
+        }
+      ],
+      "variants": [
+        {
+          "value": "30",
+          "price": 1999,
+          "available": true
+        },
+        {
+          "value": "32",
+          "price": 1999,
+          "available": true
+        },
+        {
+          "value": "34",
+          "price": 2099,
+          "available": true
+        }
+      ],
+      "specifications": {
+        "material": "Denim",
+        "fit": "Slim Fit",
+        "rise": "Mid Rise",
+        "closure": "Button and Zip"
+      },
+      "features": [
+        "Stretch Denim",
+        "Slim Fit",
+        "Comfort Waist",
+        "Durable Fabric"
+      ],
+      "boxContents": [
+        "Jeans",
+        "Brand Tag"
+      ],
+      "warranty": {
+        "available": true,
+        "duration": "1 Year",
+        "type": "Manufacturer Warranty"
+      },
+      "delivery": {
+        "freeDelivery": true,
+        "estimatedDelivery": "2-4 Business Days",
+        "cashOnDelivery": true,
+        "returnAvailable": true,
+        "returnPeriod": "7 Days"
+      },
+      "seller": {
+        "name": "Wrangler Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "offers": [
+        {
+          "title": "Bank Offer",
+          "description": "Get instant discount on selected bank cards.",
+          "type": "bank"
+        },
+        {
+          "title": "EMI Offer",
+          "description": "No-cost EMI available on selected cards.",
+          "type": "emi"
+        }
+      ],
+      "tags": [
+        "Men",
+        "Jeans",
+        "Denim",
+        "Slim Fit"
+      ],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "isNew": false,
+      "isWishlisted": false,
+      "seo": {
+        "title": "Men Slim Fit Jeans - Buy Online",
+        "description": "Classic slim-fit jeans for men.",
+        "keywords": [
+          "Men",
+          "Jeans",
+          "Denim",
+          "Slim Fit"
+        ]
+      },
+      "reviews": [
+        {
+          "id": 1031,
+          "userName": "Rahul",
+          "rating": 5,
+          "title": "Excellent product",
+          "comment": "Very good quality and performance.",
+          "date": "2026-08-21",
+          "verifiedPurchase": true
+        },
+        {
+          "id": 1032,
+          "userName": "Priya",
+          "rating": 4,
+          "title": "Good product",
+          "comment": "Good product for the price.",
+          "date": "2026-08-18",
+          "verifiedPurchase": true
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "name": "Men Polo T Shirt",
+      "slug": "men-polo-t-shirt",
+      "brand": "Puma",
+      "category": "Men",
+      "subCategory": "T-Shirts",
+      "images": [
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+        "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c",
+        "https://images.unsplash.com/photo-1583743814966-8936f37f4678",
+        "https://images.unsplash.com/photo-1562157873-818bc0726f68"
+      ],
+      "price": 999,
+      "originalPrice": 1599,
+      "discountPercentage": 38,
+      "discountAmount": 600,
+      "currency": "INR",
+      "rating": 4.5,
+      "totalReviews": 612,
+      "totalRatings": 762,
+      "stock": 20,
+      "stockStatus": "In Stock",
+      "availability": true,
+      "shortDescription": "Comfortable polo t-shirt with a sporty look.",
+      "description": "Puma polo t-shirt made from soft fabric for everyday comfort.",
+      "colors": [
+        {
+          "name": "Black",
+          "value": "#000000",
+          "available": true,
+          "additionalPrice": 0
+        },
+        {
+          "name": "Navy",
+          "value": "#000080",
+          "available": true,
+          "additionalPrice": 0
+        }
+      ],
+      "variants": [
+        {
+          "value": "M",
+          "price": 999,
+          "available": true
+        },
+        {
+          "value": "L",
+          "price": 999,
+          "available": true
+        },
+        {
+          "value": "XL",
+          "price": 1099,
+          "available": true
+        }
+      ],
+      "specifications": {
+        "material": "Cotton Blend",
+        "fit": "Regular",
+        "collar": "Polo",
+        "sleeves": "Half Sleeves"
+      },
+      "features": [
+        "Soft Fabric",
+        "Polo Collar",
+        "Breathable",
+        "Everyday Wear"
+      ],
+      "boxContents": [
+        "T-Shirt",
+        "Brand Tag"
+      ],
+      "warranty": {
+        "available": true,
+        "duration": "1 Year",
+        "type": "Manufacturer Warranty"
+      },
+      "delivery": {
+        "freeDelivery": true,
+        "estimatedDelivery": "2-4 Business Days",
+        "cashOnDelivery": true,
+        "returnAvailable": true,
+        "returnPeriod": "7 Days"
+      },
+      "seller": {
+        "name": "Puma Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "offers": [
+        {
+          "title": "Bank Offer",
+          "description": "Get instant discount on selected bank cards.",
+          "type": "bank"
+        },
+        {
+          "title": "EMI Offer",
+          "description": "No-cost EMI available on selected cards.",
+          "type": "emi"
+        }
+      ],
+      "tags": [
+        "Men",
+        "Polo",
+        "T-Shirt",
+        "Puma"
+      ],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "isNew": false,
+      "isWishlisted": false,
+      "seo": {
+        "title": "Men Polo T Shirt - Buy Online",
+        "description": "Comfortable polo t-shirt with a sporty look.",
+        "keywords": [
+          "Men",
+          "Polo",
+          "T-Shirt",
+          "Puma"
+        ]
+      },
+      "reviews": [
+        {
+          "id": 1041,
+          "userName": "Rahul",
+          "rating": 5,
+          "title": "Excellent product",
+          "comment": "Very good quality and performance.",
+          "date": "2026-08-21",
+          "verifiedPurchase": true
+        },
+        {
+          "id": 1042,
+          "userName": "Priya",
+          "rating": 4,
+          "title": "Good product",
+          "comment": "Good product for the price.",
+          "date": "2026-08-18",
+          "verifiedPurchase": true
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "name": "Men Formal Blazer",
+      "slug": "men-formal-blazer",
+      "brand": "Van Heusen",
+      "category": "Men",
+      "subCategory": "Blazers",
+      "images": [
+        "https://images.unsplash.com/photo-1507679799987-c73779587ccf",
+        "https://images.unsplash.com/photo-1598808503746-f34c53b9323e",
+        "https://images.unsplash.com/photo-1555069519-127aadedf1ee",
+        "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc"
+      ],
+      "price": 4999,
+      "originalPrice": 7999,
+      "discountPercentage": 38,
+      "discountAmount": 3000,
+      "currency": "INR",
+      "rating": 4.5,
+      "totalReviews": 287,
+      "totalRatings": 437,
+      "stock": 20,
+      "stockStatus": "In Stock",
+      "availability": true,
+      "shortDescription": "Elegant formal blazer for office and events.",
+      "description": "Premium tailored blazer designed for formal occasions and business wear.",
+      "colors": [
+        {
+          "name": "Black",
+          "value": "#000000",
+          "available": true,
+          "additionalPrice": 0
+        },
+        {
+          "name": "Navy",
+          "value": "#000080",
+          "available": true,
+          "additionalPrice": 0
+        }
+      ],
+      "variants": [
+        {
+          "value": "M",
+          "price": 4999,
+          "available": true
+        },
+        {
+          "value": "L",
+          "price": 4999,
+          "available": true
+        },
+        {
+          "value": "XL",
+          "price": 5199,
+          "available": true
+        }
+      ],
+      "specifications": {
+        "material": "Poly Viscose",
+        "fit": "Slim Fit",
+        "closure": "Button",
+        "occasion": "Formal"
+      },
+      "features": [
+        "Tailored Fit",
+        "Premium Fabric",
+        "Formal Style"
+      ],
+      "boxContents": [
+        "Blazer",
+        "Hanger"
+      ],
+      "warranty": {
+        "available": true,
+        "duration": "1 Year",
+        "type": "Manufacturer Warranty"
+      },
+      "delivery": {
+        "freeDelivery": true,
+        "estimatedDelivery": "2-4 Business Days",
+        "cashOnDelivery": true,
+        "returnAvailable": true,
+        "returnPeriod": "7 Days"
+      },
+      "seller": {
+        "name": "Van Heusen Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "offers": [
+        {
+          "title": "Bank Offer",
+          "description": "Get instant discount on selected bank cards.",
+          "type": "bank"
+        },
+        {
+          "title": "EMI Offer",
+          "description": "No-cost EMI available on selected cards.",
+          "type": "emi"
+        }
+      ],
+      "tags": [
+        "Men",
+        "Blazer",
+        "Formal",
+        "Office"
+      ],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "isNew": false,
+      "isWishlisted": false,
+      "seo": {
+        "title": "Men Formal Blazer - Buy Online",
+        "description": "Elegant formal blazer for office and events.",
+        "keywords": [
+          "Men",
+          "Blazer",
+          "Formal",
+          "Office"
+        ]
+      },
+      "reviews": [
+        {
+          "id": 1051,
+          "userName": "Rahul",
+          "rating": 5,
+          "title": "Excellent product",
+          "comment": "Very good quality and performance.",
+          "date": "2026-08-21",
+          "verifiedPurchase": true
+        },
+        {
+          "id": 1052,
+          "userName": "Priya",
+          "rating": 4,
+          "title": "Good product",
+          "comment": "Good product for the price.",
+          "date": "2026-08-18",
+          "verifiedPurchase": true
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "name": "Women Floral Dress",
+      "slug": "women-floral-dress",
+      "brand": "ONLY",
+      "category": "Women",
+      "subCategory": "Dresses",
+      "images": [
+        "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446",
+        "https://images.unsplash.com/photo-1496747611176-843222e1e57c",
+        "https://images.unsplash.com/photo-1539008835657-9e8e9680c956",
+        "https://images.unsplash.com/photo-1595777457583-95e059d581b8"
+      ],
+      "price": 1799,
+      "originalPrice": 2999,
+      "discountPercentage": 40,
+      "discountAmount": 1200,
+      "currency": "INR",
+      "rating": 4.6,
+      "totalReviews": 745,
+      "totalRatings": 895,
+      "stock": 20,
+      "stockStatus": "In Stock",
+      "availability": true,
+      "shortDescription": "Elegant floral dress for women.",
+      "description": "Beautiful lightweight floral dress perfect for casual outings and occasions.",
+      "colors": [
+        {
+          "name": "Pink",
+          "value": "#FFC0CB",
+          "available": true,
+          "additionalPrice": 0
+        },
+        {
+          "name": "White",
+          "value": "#FFFFFF",
+          "available": true,
+          "additionalPrice": 0
+        }
+      ],
+      "variants": [
+        {
+          "value": "S",
+          "price": 1799,
+          "available": true
+        },
+        {
+          "value": "M",
+          "price": 1799,
+          "available": true
+        },
+        {
+          "value": "L",
+          "price": 1899,
+          "available": true
+        }
+      ],
+      "specifications": {
+        "material": "Rayon",
+        "fit": "Regular",
+        "length": "Midi",
+        "pattern": "Floral"
+      },
+      "features": [
+        "Floral Print",
+        "Lightweight",
+        "Comfort Fit",
+        "Stylish Design"
+      ],
+      "boxContents": [
+        "Dress",
+        "Brand Tag"
+      ],
+      "warranty": {
+        "available": true,
+        "duration": "1 Year",
+        "type": "Manufacturer Warranty"
+      },
+      "delivery": {
+        "freeDelivery": true,
+        "estimatedDelivery": "2-4 Business Days",
+        "cashOnDelivery": true,
+        "returnAvailable": true,
+        "returnPeriod": "7 Days"
+      },
+      "seller": {
+        "name": "ONLY Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "offers": [
+        {
+          "title": "Bank Offer",
+          "description": "Get instant discount on selected bank cards.",
+          "type": "bank"
+        },
+        {
+          "title": "EMI Offer",
+          "description": "No-cost EMI available on selected cards.",
+          "type": "emi"
+        }
+      ],
+      "tags": [
+        "Women",
+        "Dress",
+        "Floral",
+        "Fashion"
+      ],
+      "isFeatured": true,
+      "isBestSeller": true,
+      "isNew": true,
+      "isWishlisted": false,
+      "seo": {
+        "title": "Women Floral Dress - Buy Online",
+        "description": "Elegant floral dress for women.",
+        "keywords": [
+          "Women",
+          "Dress",
+          "Floral",
+          "Fashion"
+        ]
+      },
+      "reviews": [
+        {
+          "id": 1061,
+          "userName": "Rahul",
+          "rating": 5,
+          "title": "Excellent product",
+          "comment": "Very good quality and performance.",
+          "date": "2026-08-21",
+          "verifiedPurchase": true
+        },
+        {
+          "id": 1062,
+          "userName": "Priya",
+          "rating": 4,
+          "title": "Good product",
+          "comment": "Good product for the price.",
+          "date": "2026-08-18",
+          "verifiedPurchase": true
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "name": "Women Handbag",
+      "slug": "women-handbag",
+      "brand": "Lavie",
+      "category": "Women",
+      "subCategory": "Handbags",
+      "images": [
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3",
+        "https://images.unsplash.com/photo-1594223274512-ad4803739b7c",
+        "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d",
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62"
+      ],
+      "price": 1599,
+      "originalPrice": 2499,
+      "discountPercentage": 36,
+      "discountAmount": 900,
+      "currency": "INR",
+      "rating": 4.5,
+      "totalReviews": 512,
+      "totalRatings": 662,
+      "stock": 20,
+      "stockStatus": "In Stock",
+      "availability": true,
+      "shortDescription": "Stylish handbag with spacious compartments.",
+      "description": "Premium handbag suitable for office, shopping and everyday use.",
+      "colors": [
+        {
+          "name": "Brown",
+          "value": "#8B4513",
+          "available": true,
+          "additionalPrice": 0
+        },
+        {
+          "name": "Black",
+          "value": "#000000",
+          "available": true,
+          "additionalPrice": 0
+        }
+      ],
+      "variants": [
+        {
+          "value": "Standard",
+          "price": 1599,
+          "available": true
+        }
+      ],
+      "specifications": {
+        "material": "Faux Leather",
+        "type": "Tote Bag",
+        "compartments": "3",
+        "closure": "Zip"
+      },
+      "features": [
+        "Spacious",
+        "Premium Finish",
+        "Multiple Compartments"
+      ],
+      "boxContents": [
+        "Handbag",
+        "Dust Bag"
+      ],
+      "warranty": {
+        "available": true,
+        "duration": "1 Year",
+        "type": "Manufacturer Warranty"
+      },
+      "delivery": {
+        "freeDelivery": true,
+        "estimatedDelivery": "2-4 Business Days",
+        "cashOnDelivery": true,
+        "returnAvailable": true,
+        "returnPeriod": "7 Days"
+      },
+      "seller": {
+        "name": "Lavie Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "offers": [
+        {
+          "title": "Bank Offer",
+          "description": "Get instant discount on selected bank cards.",
+          "type": "bank"
+        },
+        {
+          "title": "EMI Offer",
+          "description": "No-cost EMI available on selected cards.",
+          "type": "emi"
+        }
+      ],
+      "tags": [
+        "Women",
+        "Handbag",
+        "Fashion",
+        "Lavie"
+      ],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "isNew": false,
+      "isWishlisted": false,
+      "seo": {
+        "title": "Women Handbag - Buy Online",
+        "description": "Stylish handbag with spacious compartments.",
+        "keywords": [
+          "Women",
+          "Handbag",
+          "Fashion",
+          "Lavie"
+        ]
+      },
+      "reviews": [
+        {
+          "id": 1071,
+          "userName": "Rahul",
+          "rating": 5,
+          "title": "Excellent product",
+          "comment": "Very good quality and performance.",
+          "date": "2026-08-21",
+          "verifiedPurchase": true
+        },
+        {
+          "id": 1072,
+          "userName": "Priya",
+          "rating": 4,
+          "title": "Good product",
+          "comment": "Good product for the price.",
+          "date": "2026-08-18",
+          "verifiedPurchase": true
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "name": "Women Sari",
+      "slug": "women-sari",
+      "brand": "Biba",
+      "category": "Women",
+      "subCategory": "Saris",
+      "images": [
+        "https://images.unsplash.com/photo-1610030469983-98e550d6193c",
+        "https://images.unsplash.com/photo-1583391733956-6c78276477e2",
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1",
+        "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb"
+      ],
+      "price": 1299,
+      "originalPrice": 1999,
+      "discountPercentage": 35,
+      "discountAmount": 700,
+      "currency": "INR",
+      "rating": 4.4,
+      "totalReviews": 388,
+      "totalRatings": 538,
+      "stock": 20,
+      "stockStatus": "In Stock",
+      "availability": true,
+      "shortDescription": "Traditional printed kurti with modern styling.",
+      "description": "Comfortable ethnic kurti suitable for office and casual occasions.",
+      "colors": [
+        {
+          "name": "Red",
+          "value": "#B22222",
+          "available": true,
+          "additionalPrice": 0
+        },
+        {
+          "name": "Blue",
+          "value": "#4169E1",
+          "available": true,
+          "additionalPrice": 0
+        }
+      ],
+      "variants": [
+        {
+          "value": "M",
+          "price": 1299,
+          "available": true
+        },
+        {
+          "value": "L",
+          "price": 1299,
+          "available": true
+        },
+        {
+          "value": "XL",
+          "price": 1399,
+          "available": true
+        }
+      ],
+      "specifications": {
+        "material": "Cotton",
+        "fit": "Regular",
+        "pattern": "Printed",
+        "sleeves": "Three Quarter"
+      },
+      "features": [
+        "Cotton Fabric",
+        "Ethnic Design",
+        "Comfort Fit"
+      ],
+      "boxContents": [
+        "Kurti",
+        "Brand Tag"
+      ],
+      "warranty": {
+        "available": true,
+        "duration": "1 Year",
+        "type": "Manufacturer Warranty"
+      },
+      "delivery": {
+        "freeDelivery": true,
+        "estimatedDelivery": "2-4 Business Days",
+        "cashOnDelivery": true,
+        "returnAvailable": true,
+        "returnPeriod": "7 Days"
+      },
+      "seller": {
+        "name": "Biba Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "offers": [
+        {
+          "title": "Bank Offer",
+          "description": "Get instant discount on selected bank cards.",
+          "type": "bank"
+        },
+        {
+          "title": "EMI Offer",
+          "description": "No-cost EMI available on selected cards.",
+          "type": "emi"
+        }
+      ],
+      "tags": [
+        "Women",
+        "Kurti",
+        "Ethnic",
+        "Cotton"
+      ],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "isNew": false,
+      "isWishlisted": false,
+      "seo": {
+        "title": "Women Kurti - Buy Online",
+        "description": "Traditional printed kurti with modern styling.",
+        "keywords": [
+          "Women",
+          "Kurti",
+          "Ethnic",
+          "Cotton"
+        ]
+      },
+      "reviews": [
+        {
+          "id": 1081,
+          "userName": "Rahul",
+          "rating": 5,
+          "title": "Excellent product",
+          "comment": "Very good quality and performance.",
+          "date": "2026-08-21",
+          "verifiedPurchase": true
+        },
+        {
+          "id": 1082,
+          "userName": "Priya",
+          "rating": 4,
+          "title": "Good product",
+          "comment": "Good product for the price.",
+          "date": "2026-08-18",
+          "verifiedPurchase": true
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "name": "Women Sneakers",
+      "slug": "women-sneakers",
+      "brand": "Skechers",
+      "category": "Women",
+      "subCategory": "Shoes",
+      "images": [
+        "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2",
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+        "https://images.unsplash.com/photo-1608231387042-66d1773070a5",
+        "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a"
+      ],
+      "price": 2999,
+      "originalPrice": 4499,
+      "discountPercentage": 33,
+      "discountAmount": 1500,
+      "currency": "INR",
+      "rating": 4.5,
+      "totalReviews": 821,
+      "totalRatings": 971,
+      "stock": 20,
+      "stockStatus": "In Stock",
+      "availability": true,
+      "shortDescription": "Lightweight sneakers designed for daily comfort.",
+      "description": "Comfortable women's sneakers with cushioned sole and modern styling.",
+      "colors": [
+        {
+          "name": "White",
+          "value": "#FFFFFF",
+          "available": true,
+          "additionalPrice": 0
+        },
+        {
+          "name": "Pink",
+          "value": "#FFC0CB",
+          "available": true,
+          "additionalPrice": 0
+        }
+      ],
+      "variants": [
+        {
+          "value": "5",
+          "price": 2999,
+          "available": true
+        },
+        {
+          "value": "6",
+          "price": 2999,
+          "available": true
+        },
+        {
+          "value": "7",
+          "price": 3099,
+          "available": true
+        }
+      ],
+      "specifications": {
+        "upper": "Mesh",
+        "sole": "Rubber",
+        "closure": "Lace-Up",
+        "type": "Sneakers"
+      },
+      "features": [
+        "Cushioned Sole",
+        "Lightweight",
+        "Breathable Mesh"
+      ],
+      "boxContents": [
+        "Shoes",
+        "Box"
+      ],
+      "warranty": {
+        "available": true,
+        "duration": "1 Year",
+        "type": "Manufacturer Warranty"
+      },
+      "delivery": {
+        "freeDelivery": true,
+        "estimatedDelivery": "2-4 Business Days",
+        "cashOnDelivery": true,
+        "returnAvailable": true,
+        "returnPeriod": "7 Days"
+      },
+      "seller": {
+        "name": "Skechers Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "offers": [
+        {
+          "title": "Bank Offer",
+          "description": "Get instant discount on selected bank cards.",
+          "type": "bank"
+        },
+        {
+          "title": "EMI Offer",
+          "description": "No-cost EMI available on selected cards.",
+          "type": "emi"
+        }
+      ],
+      "tags": [
+        "Women",
+        "Sneakers",
+        "Sports",
+        "Comfort"
+      ],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "isNew": true,
+      "isWishlisted": false,
+      "seo": {
+        "title": "Women Sneakers - Buy Online",
+        "description": "Lightweight sneakers designed for daily comfort.",
+        "keywords": [
+          "Women",
+          "Sneakers",
+          "Sports",
+          "Comfort"
+        ]
+      },
+      "reviews": [
+        {
+          "id": 1091,
+          "userName": "Rahul",
+          "rating": 5,
+          "title": "Excellent product",
+          "comment": "Very good quality and performance.",
+          "date": "2026-08-21",
+          "verifiedPurchase": true
+        },
+        {
+          "id": 1092,
+          "userName": "Priya",
+          "rating": 4,
+          "title": "Good product",
+          "comment": "Good product for the price.",
+          "date": "2026-08-18",
+          "verifiedPurchase": true
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "name": "Women Denim Jacket",
+      "slug": "women-denim-jacket",
+      "brand": "Levis",
+      "category": "Women",
+      "subCategory": "Jackets",
+      "images": [
+        "https://images.unsplash.com/photo-1543076447-215ad9ba6923",
+        "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3",
+        "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3",
+        "https://images.unsplash.com/photo-1490481651871-ab68de25d43d"
+      ],
+      "price": 2199,
+      "originalPrice": 3499,
+      "discountPercentage": 37,
+      "discountAmount": 1300,
+      "currency": "INR",
+      "rating": 4.3,
+      "totalReviews": 266,
+      "totalRatings": 416,
+      "stock": 20,
+      "stockStatus": "In Stock",
+      "availability": true,
+      "shortDescription": "Classic denim jacket for women.",
+      "description": "Versatile denim jacket that pairs well with casual outfits.",
+      "colors": [
+        {
+          "name": "Blue",
+          "value": "#4169E1",
+          "available": true,
+          "additionalPrice": 0
+        },
+        {
+          "name": "Black",
+          "value": "#111111",
+          "available": true,
+          "additionalPrice": 0
+        }
+      ],
+      "variants": [
+        {
+          "value": "S",
+          "price": 2199,
+          "available": true
+        },
+        {
+          "value": "M",
+          "price": 2199,
+          "available": true
+        },
+        {
+          "value": "L",
+          "price": 2299,
+          "available": true
+        }
+      ],
+      "specifications": {
+        "material": "Denim",
+        "fit": "Regular",
+        "closure": "Button",
+        "sleeves": "Full"
+      },
+      "features": [
+        "Classic Denim",
+        "Durable",
+        "Casual Style"
+      ],
+      "boxContents": [
+        "Jacket",
+        "Brand Tag"
+      ],
+      "warranty": {
+        "available": true,
+        "duration": "1 Year",
+        "type": "Manufacturer Warranty"
+      },
+      "delivery": {
+        "freeDelivery": true,
+        "estimatedDelivery": "2-4 Business Days",
+        "cashOnDelivery": true,
+        "returnAvailable": true,
+        "returnPeriod": "7 Days"
+      },
+      "seller": {
+        "name": "Levis Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "offers": [
+        {
+          "title": "Bank Offer",
+          "description": "Get instant discount on selected bank cards.",
+          "type": "bank"
+        },
+        {
+          "title": "EMI Offer",
+          "description": "No-cost EMI available on selected cards.",
+          "type": "emi"
+        }
+      ],
+      "tags": [
+        "Women",
+        "Denim",
+        "Jacket",
+        "Casual"
+      ],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "isNew": false,
+      "isWishlisted": false,
+      "seo": {
+        "title": "Women Denim Jacket - Buy Online",
+        "description": "Classic denim jacket for women.",
+        "keywords": [
+          "Women",
+          "Denim",
+          "Jacket",
+          "Casual"
+        ]
+      },
+      "reviews": [
+        {
+          "id": 1101,
+          "userName": "Rahul",
+          "rating": 5,
+          "title": "Excellent product",
+          "comment": "Very good quality and performance.",
+          "date": "2026-08-21",
+          "verifiedPurchase": true
+        },
+        {
+          "id": 1102,
+          "userName": "Priya",
+          "rating": 4,
+          "title": "Good product",
+          "comment": "Good product for the price.",
+          "date": "2026-08-18",
+          "verifiedPurchase": true
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "name": "Nike Air Max Running Shoes",
+      "slug": "nike-air-max-running-shoes",
+      "brand": "Nike",
+      "category": "Shoes",
+      "subCategory": "Running Shoes",
+      "images": [
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+        "https://images.unsplash.com/photo-1460353581641-37baddab0fa2",
+        "https://images.unsplash.com/photo-1552346154-21d32810aba3",
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff"
+      ],
+      "price": 5999,
+      "originalPrice": 7999,
+      "discountPercentage": 25,
+      "discountAmount": 2000,
+      "currency": "INR",
+      "rating": 4.7,
+      "totalReviews": 1432,
+      "totalRatings": 1582,
+      "stock": 20,
+      "stockStatus": "In Stock",
+      "availability": true,
+      "shortDescription": "High-performance running shoes with cushioned support.",
+      "description": "Nike Air Max shoes provide responsive cushioning and excellent everyday comfort.",
+      "colors": [
+        {
+          "name": "Black",
+          "value": "#000000",
+          "available": true,
+          "additionalPrice": 0
+        },
+        {
+          "name": "White",
+          "value": "#FFFFFF",
+          "available": true,
+          "additionalPrice": 0
+        }
+      ],
+      "variants": [
+        {
+          "value": "7",
+          "price": 5999,
+          "available": true
+        },
+        {
+          "value": "8",
+          "price": 5999,
+          "available": true
+        },
+        {
+          "value": "9",
+          "price": 6099,
+          "available": true
+        }
+      ],
+      "specifications": {
+        "upper": "Mesh",
+        "sole": "Rubber",
+        "type": "Running Shoes",
+        "closure": "Lace-Up"
+      },
+      "features": [
+        "Air Cushioning",
+        "Lightweight",
+        "Breathable",
+        "Running Support"
+      ],
+      "boxContents": [
+        "Shoes",
+        "Box"
+      ],
+      "warranty": {
+        "available": true,
+        "duration": "1 Year",
+        "type": "Manufacturer Warranty"
+      },
+      "delivery": {
+        "freeDelivery": true,
+        "estimatedDelivery": "2-4 Business Days",
+        "cashOnDelivery": true,
+        "returnAvailable": true,
+        "returnPeriod": "7 Days"
+      },
+      "seller": {
+        "name": "Nike Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "offers": [
+        {
+          "title": "Bank Offer",
+          "description": "Get instant discount on selected bank cards.",
+          "type": "bank"
+        },
+        {
+          "title": "EMI Offer",
+          "description": "No-cost EMI available on selected cards.",
+          "type": "emi"
+        }
+      ],
+      "tags": [
+        "Nike",
+        "Running",
+        "Shoes",
+        "Sports"
+      ],
+      "isFeatured": true,
+      "isBestSeller": true,
+      "isNew": true,
+      "isWishlisted": false,
+      "seo": {
+        "title": "Nike Air Max Running Shoes - Buy Online",
+        "description": "High-performance running shoes with cushioned support.",
+        "keywords": [
+          "Nike",
+          "Running",
+          "Shoes",
+          "Sports"
+        ]
+      },
+      "reviews": [
+        {
+          "id": 1111,
+          "userName": "Rahul",
+          "rating": 5,
+          "title": "Excellent product",
+          "comment": "Very good quality and performance.",
+          "date": "2026-08-21",
+          "verifiedPurchase": true
+        },
+        {
+          "id": 1112,
+          "userName": "Priya",
+          "rating": 4,
+          "title": "Good product",
+          "comment": "Good product for the price.",
+          "date": "2026-08-18",
+          "verifiedPurchase": true
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "name": "Adidas Casual Sneakers",
+      "slug": "adidas-casual-sneakers",
+      "brand": "Adidas",
+      "category": "Shoes",
+      "subCategory": "Sneakers",
+      "images": [
+        "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77",
+        "https://images.unsplash.com/photo-1495555961986-6d4c1ecb7be3",
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772",
+        "https://images.unsplash.com/photo-1560769629-975ec94e6a86"
+      ],
+      "price": 3499,
+      "originalPrice": 4999,
+      "discountPercentage": 30,
+      "discountAmount": 1500,
+      "currency": "INR",
+      "rating": 4.5,
+      "totalReviews": 934,
+      "totalRatings": 1084,
+      "stock": 20,
+      "stockStatus": "In Stock",
+      "availability": true,
+      "shortDescription": "Classic casual sneakers for everyday use.",
+      "description": "Adidas sneakers combine classic design with comfortable cushioning.",
+      "colors": [
+        {
+          "name": "White",
+          "value": "#FFFFFF",
+          "available": true,
+          "additionalPrice": 0
+        },
+        {
+          "name": "Black",
+          "value": "#000000",
+          "available": true,
+          "additionalPrice": 0
+        }
+      ],
+      "variants": [
+        {
+          "value": "7",
+          "price": 3499,
+          "available": true
+        },
+        {
+          "value": "8",
+          "price": 3499,
+          "available": true
+        },
+        {
+          "value": "9",
+          "price": 3599,
+          "available": true
+        }
+      ],
+      "specifications": {
+        "upper": "Synthetic",
+        "sole": "Rubber",
+        "type": "Casual Sneakers",
+        "closure": "Lace-Up"
+      },
+      "features": [
+        "Classic Design",
+        "Comfort Sole",
+        "Durable"
+      ],
+      "boxContents": [
+        "Shoes",
+        "Box"
+      ],
+      "warranty": {
+        "available": true,
+        "duration": "1 Year",
+        "type": "Manufacturer Warranty"
+      },
+      "delivery": {
+        "freeDelivery": true,
+        "estimatedDelivery": "2-4 Business Days",
+        "cashOnDelivery": true,
+        "returnAvailable": true,
+        "returnPeriod": "7 Days"
+      },
+      "seller": {
+        "name": "Adidas Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "offers": [
+        {
+          "title": "Bank Offer",
+          "description": "Get instant discount on selected bank cards.",
+          "type": "bank"
+        },
+        {
+          "title": "EMI Offer",
+          "description": "No-cost EMI available on selected cards.",
+          "type": "emi"
+        }
+      ],
+      "tags": [
+        "Adidas",
+        "Sneakers",
+        "Casual",
+        "Shoes"
+      ],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "isNew": false,
+      "isWishlisted": false,
+      "seo": {
+        "title": "Adidas Casual Sneakers - Buy Online",
+        "description": "Classic casual sneakers for everyday use.",
+        "keywords": [
+          "Adidas",
+          "Sneakers",
+          "Casual",
+          "Shoes"
+        ]
+      },
+      "reviews": [
+        {
+          "id": 1121,
+          "userName": "Rahul",
+          "rating": 5,
+          "title": "Excellent product",
+          "comment": "Very good quality and performance.",
+          "date": "2026-08-21",
+          "verifiedPurchase": true
+        },
+        {
+          "id": 1122,
+          "userName": "Priya",
+          "rating": 4,
+          "title": "Good product",
+          "comment": "Good product for the price.",
+          "date": "2026-08-18",
+          "verifiedPurchase": true
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "name": "Puma Sports Shoes",
+      "slug": "puma-sports-shoes",
+      "brand": "Puma",
+      "category": "Shoes",
+      "subCategory": "Sports Shoes",
+      "images": [
+        "https://images.unsplash.com/photo-1539185441755-769473a23570",
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
+        "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2"
+      ],
+      "price": 2799,
+      "originalPrice": 3999,
+      "discountPercentage": 30,
+      "discountAmount": 1200,
+      "currency": "INR",
+      "rating": 4.4,
+      "totalReviews": 623,
+      "totalRatings": 773,
+      "stock": 20,
+      "stockStatus": "In Stock",
+      "availability": true,
+      "shortDescription": "Comfortable sports shoes for workouts and running.",
+      "description": "Puma sports shoes offer lightweight construction and reliable grip.",
+      "colors": [
+        {
+          "name": "Grey",
+          "value": "#808080",
+          "available": true,
+          "additionalPrice": 0
+        },
+        {
+          "name": "Black",
+          "value": "#000000",
+          "available": true,
+          "additionalPrice": 0
+        }
+      ],
+      "variants": [
+        {
+          "value": "7",
+          "price": 2799,
+          "available": true
+        },
+        {
+          "value": "8",
+          "price": 2799,
+          "available": true
+        },
+        {
+          "value": "9",
+          "price": 2899,
+          "available": true
+        }
+      ],
+      "specifications": {
+        "upper": "Mesh",
+        "sole": "EVA",
+        "type": "Sports Shoes",
+        "closure": "Lace-Up"
+      },
+      "features": [
+        "Lightweight",
+        "Grip Sole",
+        "Breathable"
+      ],
+      "boxContents": [
+        "Shoes",
+        "Box"
+      ],
+      "warranty": {
+        "available": true,
+        "duration": "1 Year",
+        "type": "Manufacturer Warranty"
+      },
+      "delivery": {
+        "freeDelivery": true,
+        "estimatedDelivery": "2-4 Business Days",
+        "cashOnDelivery": true,
+        "returnAvailable": true,
+        "returnPeriod": "7 Days"
+      },
+      "seller": {
+        "name": "Puma Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "offers": [
+        {
+          "title": "Bank Offer",
+          "description": "Get instant discount on selected bank cards.",
+          "type": "bank"
+        },
+        {
+          "title": "EMI Offer",
+          "description": "No-cost EMI available on selected cards.",
+          "type": "emi"
+        }
+      ],
+      "tags": [
+        "Puma",
+        "Sports",
+        "Running",
+        "Shoes"
+      ],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "isNew": false,
+      "isWishlisted": false,
+      "seo": {
+        "title": "Puma Sports Shoes - Buy Online",
+        "description": "Comfortable sports shoes for workouts and running.",
+        "keywords": [
+          "Puma",
+          "Sports",
+          "Running",
+          "Shoes"
+        ]
+      },
+      "reviews": [
+        {
+          "id": 1131,
+          "userName": "Rahul",
+          "rating": 5,
+          "title": "Excellent product",
+          "comment": "Very good quality and performance.",
+          "date": "2026-08-21",
+          "verifiedPurchase": true
+        },
+        {
+          "id": 1132,
+          "userName": "Priya",
+          "rating": 4,
+          "title": "Good product",
+          "comment": "Good product for the price.",
+          "date": "2026-08-18",
+          "verifiedPurchase": true
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "name": "Men Formal Leather Shoes",
+      "slug": "men-formal-leather-shoes",
+      "brand": "Bata",
+      "category": "Shoes",
+      "subCategory": "Formal Shoes",
+      "images": [
+        "https://images.unsplash.com/photo-1616406432452-07bc5938759d",
+        "https://images.unsplash.com/photo-1614252369475-531eba835eb1",
+        "https://images.unsplash.com/photo-1543163521-1bf539c55dd2",
+        "https://images.unsplash.com/photo-1449247709967-d4461a6a6103"
+      ],
+      "price": 2499,
+      "originalPrice": 3499,
+      "discountPercentage": 29,
+      "discountAmount": 1000,
+      "currency": "INR",
+      "rating": 4.3,
+      "totalReviews": 451,
+      "totalRatings": 601,
+      "stock": 20,
+      "stockStatus": "In Stock",
+      "availability": true,
+      "shortDescription": "Classic leather formal shoes for men.",
+      "description": "Elegant formal shoes designed for office and business occasions.",
+      "colors": [
+        {
+          "name": "Black",
+          "value": "#000000",
+          "available": true,
+          "additionalPrice": 0
+        },
+        {
+          "name": "Brown",
+          "value": "#8B4513",
+          "available": true,
+          "additionalPrice": 0
+        }
+      ],
+      "variants": [
+        {
+          "value": "8",
+          "price": 2499,
+          "available": true
+        },
+        {
+          "value": "9",
+          "price": 2499,
+          "available": true
+        },
+        {
+          "value": "10",
+          "price": 2599,
+          "available": true
+        }
+      ],
+      "specifications": {
+        "upper": "Leather",
+        "sole": "Rubber",
+        "type": "Formal Shoes",
+        "closure": "Lace-Up"
+      },
+      "features": [
+        "Leather Upper",
+        "Comfort Footbed",
+        "Formal Design"
+      ],
+      "boxContents": [
+        "Shoes",
+        "Box"
+      ],
+      "warranty": {
+        "available": true,
+        "duration": "1 Year",
+        "type": "Manufacturer Warranty"
+      },
+      "delivery": {
+        "freeDelivery": true,
+        "estimatedDelivery": "2-4 Business Days",
+        "cashOnDelivery": true,
+        "returnAvailable": true,
+        "returnPeriod": "7 Days"
+      },
+      "seller": {
+        "name": "Bata Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "offers": [
+        {
+          "title": "Bank Offer",
+          "description": "Get instant discount on selected bank cards.",
+          "type": "bank"
+        },
+        {
+          "title": "EMI Offer",
+          "description": "No-cost EMI available on selected cards.",
+          "type": "emi"
+        }
+      ],
+      "tags": [
+        "Bata",
+        "Formal",
+        "Leather",
+        "Shoes"
+      ],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "isNew": false,
+      "isWishlisted": false,
+      "seo": {
+        "title": "Men Formal Leather Shoes - Buy Online",
+        "description": "Classic leather formal shoes for men.",
+        "keywords": [
+          "Bata",
+          "Formal",
+          "Leather",
+          "Shoes"
+        ]
+      },
+      "reviews": [
+        {
+          "id": 1141,
+          "userName": "Rahul",
+          "rating": 5,
+          "title": "Excellent product",
+          "comment": "Very good quality and performance.",
+          "date": "2026-08-21",
+          "verifiedPurchase": true
+        },
+        {
+          "id": 1142,
+          "userName": "Priya",
+          "rating": 4,
+          "title": "Good product",
+          "comment": "Good product for the price.",
+          "date": "2026-08-18",
+          "verifiedPurchase": true
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "name": "Sony WH-1000XM5 Headphones",
+      "slug": "sony-wh-1000xm5-headphones",
+      "brand": "Sony",
+      "category": "Electronics",
+      "subCategory": "Headphones",
+      "images": [
+        "https://images.unsplash.com/photo-1546435770-a3e426bf472b",
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944",
+        "https://images.unsplash.com/photo-1583394838336-acd977736f90"
+      ],
+      "price": 24999,
+      "originalPrice": 29999,
+      "discountPercentage": 17,
+      "discountAmount": 5000,
+      "currency": "INR",
+      "rating": 4.8,
+      "totalReviews": 2198,
+      "totalRatings": 2348,
+      "stock": 20,
+      "stockStatus": "In Stock",
+      "availability": true,
+      "shortDescription": "Premium wireless noise cancelling headphones.",
+      "description": "Sony WH-1000XM5 delivers immersive sound with advanced noise cancellation.",
+      "colors": [
+        {
+          "name": "Black",
+          "value": "#000000",
+          "available": true,
+          "additionalPrice": 0
+        },
+        {
+          "name": "Silver",
+          "value": "#C0C0C0",
+          "available": true,
+          "additionalPrice": 0
+        }
+      ],
+      "variants": [
+        {
+          "value": "Standard",
+          "price": 24999,
+          "available": true
+        }
+      ],
+      "specifications": {
+        "type": "Over Ear",
+        "connectivity": "Bluetooth 5.2",
+        "battery": "30 Hours",
+        "noiseCancellation": "Active"
+      },
+      "features": [
+        "Noise Cancellation",
+        "30 Hour Battery",
+        "Premium Audio",
+        "Bluetooth"
+      ],
+      "boxContents": [
+        "Headphones",
+        "USB Cable",
+        "Case"
+      ],
+      "warranty": {
+        "available": true,
+        "duration": "1 Year",
+        "type": "Manufacturer Warranty"
+      },
+      "delivery": {
+        "freeDelivery": true,
+        "estimatedDelivery": "2-4 Business Days",
+        "cashOnDelivery": true,
+        "returnAvailable": true,
+        "returnPeriod": "7 Days"
+      },
+      "seller": {
+        "name": "Sony Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "offers": [
+        {
+          "title": "Bank Offer",
+          "description": "Get instant discount on selected bank cards.",
+          "type": "bank"
+        },
+        {
+          "title": "EMI Offer",
+          "description": "No-cost EMI available on selected cards.",
+          "type": "emi"
+        }
+      ],
+      "tags": [
+        "Sony",
+        "Headphones",
+        "Wireless",
+        "Audio"
+      ],
+      "isFeatured": true,
+      "isBestSeller": true,
+      "isNew": true,
+      "isWishlisted": false,
+      "seo": {
+        "title": "Sony WH-1000XM5 Headphones - Buy Online",
+        "description": "Premium wireless noise cancelling headphones.",
+        "keywords": [
+          "Sony",
+          "Headphones",
+          "Wireless",
+          "Audio"
+        ]
+      },
+      "reviews": [
+        {
+          "id": 1151,
+          "userName": "Rahul",
+          "rating": 5,
+          "title": "Excellent product",
+          "comment": "Very good quality and performance.",
+          "date": "2026-08-21",
+          "verifiedPurchase": true
+        },
+        {
+          "id": 1152,
+          "userName": "Priya",
+          "rating": 4,
+          "title": "Good product",
+          "comment": "Good product for the price.",
+          "date": "2026-08-18",
+          "verifiedPurchase": true
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "name": "Dell Inspiron 15 Laptop",
+      "slug": "dell-inspiron-15-laptop",
+      "brand": "Dell",
+      "category": "Electronics",
+      "subCategory": "Laptops",
+      "images": [
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+        "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef"
+      ],
+      "price": 54999,
+      "originalPrice": 64999,
+      "discountPercentage": 15,
+      "discountAmount": 10000,
+      "currency": "INR",
+      "rating": 4.5,
+      "totalReviews": 875,
+      "totalRatings": 1025,
+      "stock": 20,
+      "stockStatus": "In Stock",
+      "availability": true,
+      "shortDescription": "Powerful laptop for work, study and entertainment.",
+      "description": "Dell Inspiron offers reliable performance with a large display and fast SSD storage.",
+      "colors": [
+        {
+          "name": "Silver",
+          "value": "#C0C0C0",
+          "available": true,
+          "additionalPrice": 0
+        },
+        {
+          "name": "Black",
+          "value": "#000000",
+          "available": true,
+          "additionalPrice": 0
+        }
+      ],
+      "variants": [
+        {
+          "value": "8GB/512GB",
+          "price": 54999,
+          "available": true
+        },
+        {
+          "value": "16GB/512GB",
+          "price": 62999,
+          "available": true
+        }
+      ],
+      "specifications": {
+        "display": "15.6-inch FHD",
+        "processor": "Intel Core i5",
+        "ram": "8GB",
+        "storage": "512GB SSD",
+        "operatingSystem": "Windows 11"
+      },
+      "features": [
+        "Full HD Display",
+        "SSD Storage",
+        "Wi-Fi",
+        "Windows 11"
+      ],
+      "boxContents": [
+        "Laptop",
+        "Charger",
+        "Documentation"
+      ],
+      "warranty": {
+        "available": true,
+        "duration": "1 Year",
+        "type": "Manufacturer Warranty"
+      },
+      "delivery": {
+        "freeDelivery": true,
+        "estimatedDelivery": "2-4 Business Days",
+        "cashOnDelivery": true,
+        "returnAvailable": true,
+        "returnPeriod": "7 Days"
+      },
+      "seller": {
+        "name": "Dell Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "offers": [
+        {
+          "title": "Bank Offer",
+          "description": "Get instant discount on selected bank cards.",
+          "type": "bank"
+        },
+        {
+          "title": "EMI Offer",
+          "description": "No-cost EMI available on selected cards.",
+          "type": "emi"
+        }
+      ],
+      "tags": [
+        "Dell",
+        "Laptop",
+        "Windows",
+        "SSD"
+      ],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "isNew": false,
+      "isWishlisted": false,
+      "seo": {
+        "title": "Dell Inspiron 15 Laptop - Buy Online",
+        "description": "Powerful laptop for work, study and entertainment.",
+        "keywords": [
+          "Dell",
+          "Laptop",
+          "Windows",
+          "SSD"
+        ]
+      },
+      "reviews": [
+        {
+          "id": 1161,
+          "userName": "Rahul",
+          "rating": 5,
+          "title": "Excellent product",
+          "comment": "Very good quality and performance.",
+          "date": "2026-08-21",
+          "verifiedPurchase": true
+        },
+        {
+          "id": 1162,
+          "userName": "Priya",
+          "rating": 4,
+          "title": "Good product",
+          "comment": "Good product for the price.",
+          "date": "2026-08-18",
+          "verifiedPurchase": true
+        }
+      ]
+    },
+    {
+      "id": "117",
+      "name": "Apple AirPods Pro",
+      "slug": "apple-airpods-pro",
+      "brand": "Apple",
+      "category": "Electronics",
+      "subCategory": "Earbuds",
+      "images": [
+        "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434",
+        "https://images.unsplash.com/photo-1588423771073-b8903fbb85b5",
+        "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1",
+        "https://images.unsplash.com/photo-1590658268037-6bf12165a8df"
+      ],
+      "price": 19999,
+      "originalPrice": 24900,
+      "discountPercentage": 20,
+      "discountAmount": 4901,
+      "currency": "INR",
+      "rating": 4.7,
+      "totalReviews": 1674,
+      "totalRatings": 1824,
+      "stock": 20,
+      "stockStatus": "In Stock",
+      "availability": true,
+      "shortDescription": "Premium wireless earbuds with active noise cancellation.",
+      "description": "AirPods Pro provide immersive audio, adaptive transparency and a comfortable fit.",
+      "colors": [
+        {
+          "name": "White",
+          "value": "#FFFFFF",
+          "available": true,
+          "additionalPrice": 0
+        }
+      ],
+      "variants": [
+        {
+          "value": "Standard",
+          "price": 19999,
+          "available": true
+        }
+      ],
+      "specifications": {
+        "type": "In Ear",
+        "connectivity": "Bluetooth",
+        "battery": "6 Hours",
+        "noiseCancellation": "Active"
+      },
+      "features": [
+        "Active Noise Cancellation",
+        "Transparency Mode",
+        "Wireless Charging",
+        "Sweat Resistant"
+      ],
+      "boxContents": [
+        "Earbuds",
+        "Charging Case",
+        "USB Cable"
+      ],
+      "warranty": {
+        "available": true,
+        "duration": "1 Year",
+        "type": "Manufacturer Warranty"
+      },
+      "delivery": {
+        "freeDelivery": true,
+        "estimatedDelivery": "2-4 Business Days",
+        "cashOnDelivery": true,
+        "returnAvailable": true,
+        "returnPeriod": "7 Days"
+      },
+      "seller": {
+        "name": "Apple Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "offers": [
+        {
+          "title": "Bank Offer",
+          "description": "Get instant discount on selected bank cards.",
+          "type": "bank"
+        },
+        {
+          "title": "EMI Offer",
+          "description": "No-cost EMI available on selected cards.",
+          "type": "emi"
+        }
+      ],
+      "tags": [
+        "Apple",
+        "AirPods",
+        "Wireless",
+        "Earbuds"
+      ],
+      "isFeatured": true,
+      "isBestSeller": true,
+      "isNew": true,
+      "isWishlisted": false,
+      "seo": {
+        "title": "Apple AirPods Pro - Buy Online",
+        "description": "Premium wireless earbuds with active noise cancellation.",
+        "keywords": [
+          "Apple",
+          "AirPods",
+          "Wireless",
+          "Earbuds"
+        ]
+      },
+      "reviews": [
+        {
+          "id": 1171,
+          "userName": "Rahul",
+          "rating": 5,
+          "title": "Excellent product",
+          "comment": "Very good quality and performance.",
+          "date": "2026-08-21",
+          "verifiedPurchase": true
+        },
+        {
+          "id": 1172,
+          "userName": "Priya",
+          "rating": 4,
+          "title": "Good product",
+          "comment": "Good product for the price.",
+          "date": "2026-08-18",
+          "verifiedPurchase": true
+        }
+      ]
+    },
+    {
+      "id": "118",
+      "name": "Samsung 55 Inch 4K Smart TV",
+      "slug": "samsung-55-inch-4k-smart-tv",
+      "brand": "Samsung",
+      "category": "Electronics",
+      "subCategory": "Televisions",
+      "images": [
+        "https://images.unsplash.com/photo-1593784991095-a205069470b6",
+        "https://images.unsplash.com/photo-1461151304267-38535e780c79",
+        "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1",
+        "https://images.unsplash.com/photo-1567690187548-f07b1d7bf5a9"
+      ],
+      "price": 45999,
+      "originalPrice": 59999,
+      "discountPercentage": 23,
+      "discountAmount": 14000,
+      "currency": "INR",
+      "rating": 4.6,
+      "totalReviews": 734,
+      "totalRatings": 884,
+      "stock": 20,
+      "stockStatus": "In Stock",
+      "availability": true,
+      "shortDescription": "Large 4K smart television with vivid picture quality.",
+      "description": "Samsung Smart TV offers sharp 4K visuals, smart apps and immersive entertainment.",
+      "colors": [
+        {
+          "name": "Black",
+          "value": "#000000",
+          "available": true,
+          "additionalPrice": 0
+        }
+      ],
+      "variants": [
+        {
+          "value": "55 Inch",
+          "price": 45999,
+          "available": true
+        },
+        {
+          "value": "65 Inch",
+          "price": 59999,
+          "available": true
+        }
+      ],
+      "specifications": {
+        "display": "55-inch 4K UHD",
+        "resolution": "3840 x 2160",
+        "refreshRate": "60Hz",
+        "operatingSystem": "Tizen",
+        "connectivity": "Wi-Fi, Bluetooth, HDMI"
+      },
+      "features": [
+        "4K UHD",
+        "Smart TV",
+        "HDR",
+        "Built-in Wi-Fi"
+      ],
+      "boxContents": [
+        "TV",
+        "Remote",
+        "Power Cable",
+        "Stand"
+      ],
+      "warranty": {
+        "available": true,
+        "duration": "1 Year",
+        "type": "Manufacturer Warranty"
+      },
+      "delivery": {
+        "freeDelivery": true,
+        "estimatedDelivery": "2-4 Business Days",
+        "cashOnDelivery": true,
+        "returnAvailable": true,
+        "returnPeriod": "7 Days"
+      },
+      "seller": {
+        "name": "Samsung Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "offers": [
+        {
+          "title": "Bank Offer",
+          "description": "Get instant discount on selected bank cards.",
+          "type": "bank"
+        },
+        {
+          "title": "EMI Offer",
+          "description": "No-cost EMI available on selected cards.",
+          "type": "emi"
+        }
+      ],
+      "tags": [
+        "Samsung",
+        "4K",
+        "Smart TV",
+        "Television"
+      ],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "isNew": true,
+      "isWishlisted": false,
+      "seo": {
+        "title": "Samsung 55 Inch 4K Smart TV - Buy Online",
+        "description": "Large 4K smart television with vivid picture quality.",
+        "keywords": [
+          "Samsung",
+          "4K",
+          "Smart TV",
+          "Television"
+        ]
+      },
+      "reviews": [
+        {
+          "id": 1181,
+          "userName": "Rahul",
+          "rating": 5,
+          "title": "Excellent product",
+          "comment": "Very good quality and performance.",
+          "date": "2026-08-21",
+          "verifiedPurchase": true
+        },
+        {
+          "id": 1182,
+          "userName": "Priya",
+          "rating": 4,
+          "title": "Good product",
+          "comment": "Good product for the price.",
+          "date": "2026-08-18",
+          "verifiedPurchase": true
+        }
+      ]
+    },
+    {
+      "id": "119",
+      "name": "Canon EOS 1500D Camera",
+      "slug": "canon-eos-1500d-camera",
+      "brand": "Canon",
+      "category": "Electronics",
+      "subCategory": "Cameras",
+      "images": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd",
+        "https://images.unsplash.com/photo-1606986628253-2c7d5b7a7a9b",
+        "https://images.unsplash.com/photo-1510127034890-ba27508e9f1c"
+      ],
+      "price": 38999,
+      "originalPrice": 44999,
+      "discountPercentage": 13,
+      "discountAmount": 6000,
+      "currency": "INR",
+      "rating": 4.6,
+      "totalReviews": 529,
+      "totalRatings": 679,
+      "stock": 20,
+      "stockStatus": "In Stock",
+      "availability": true,
+      "shortDescription": "24.1MP DSLR camera for photography enthusiasts.",
+      "description": "Canon EOS 1500D provides detailed images and Full HD video recording.",
+      "colors": [
+        {
+          "name": "Black",
+          "value": "#000000",
+          "available": true,
+          "additionalPrice": 0
+        }
+      ],
+      "variants": [
+        {
+          "value": "18-55mm Lens",
+          "price": 38999,
+          "available": true
+        },
+        {
+          "value": "18-135mm Lens",
+          "price": 48999,
+          "available": true
+        }
+      ],
+      "specifications": {
+        "sensor": "24.1MP APS-C",
+        "video": "Full HD",
+        "lens": "18-55mm",
+        "connectivity": "Wi-Fi"
+      },
+      "features": [
+        "24.1MP Sensor",
+        "Full HD Video",
+        "Wi-Fi",
+        "Optical Viewfinder"
+      ],
+      "boxContents": [
+        "Camera",
+        "Lens",
+        "Battery",
+        "Charger",
+        "Strap"
+      ],
+      "warranty": {
+        "available": true,
+        "duration": "1 Year",
+        "type": "Manufacturer Warranty"
+      },
+      "delivery": {
+        "freeDelivery": true,
+        "estimatedDelivery": "2-4 Business Days",
+        "cashOnDelivery": true,
+        "returnAvailable": true,
+        "returnPeriod": "7 Days"
+      },
+      "seller": {
+        "name": "Canon Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "offers": [
+        {
+          "title": "Bank Offer",
+          "description": "Get instant discount on selected bank cards.",
+          "type": "bank"
+        },
+        {
+          "title": "EMI Offer",
+          "description": "No-cost EMI available on selected cards.",
+          "type": "emi"
+        }
+      ],
+      "tags": [
+        "Canon",
+        "DSLR",
+        "Camera",
+        "Photography"
+      ],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "isNew": true,
+      "isWishlisted": false,
+      "seo": {
+        "title": "Canon EOS 1500D Camera - Buy Online",
+        "description": "24.1MP DSLR camera for photography enthusiasts.",
+        "keywords": [
+          "Canon",
+          "DSLR",
+          "Camera",
+          "Photography"
+        ]
+      },
+      "reviews": [
+        {
+          "id": 1191,
+          "userName": "Rahul",
+          "rating": 5,
+          "title": "Excellent product",
+          "comment": "Very good quality and performance.",
+          "date": "2026-08-21",
+          "verifiedPurchase": true
+        },
+        {
+          "id": 1192,
+          "userName": "Priya",
+          "rating": 4,
+          "title": "Good product",
+          "comment": "Good product for the price.",
+          "date": "2026-08-18",
+          "verifiedPurchase": true
+        }
+      ]
+    },
+    {
+      "id": "120",
+      "name": "OnePlus Nord CE Smartphone",
+      "slug": "oneplus-nord-ce-smartphone",
+      "brand": "OnePlus",
+      "category": "Electronics",
+      "subCategory": "Smartphones",
+      "images": [
+        "https://images.unsplash.com/photo-1598327105666-5b89351aff97",
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+        "https://images.unsplash.com/photo-1592750475338-74b7b21085ab",
+        "https://images.unsplash.com/photo-1567581935884-3349723552ca"
+      ],
+      "price": 24999,
+      "originalPrice": 29999,
+      "discountPercentage": 17,
+      "discountAmount": 5000,
+      "currency": "INR",
+      "rating": 4.4,
+      "totalReviews": 923,
+      "totalRatings": 1073,
+      "stock": 20,
+      "stockStatus": "In Stock",
+      "availability": true,
+      "shortDescription": "Fast and stylish 5G smartphone with AMOLED display.",
+      "description": "OnePlus Nord CE offers smooth performance, fast charging and a vibrant display.",
+      "colors": [
+        {
+          "name": "Black",
+          "value": "#111111",
+          "available": true,
+          "additionalPrice": 0
+        },
+        {
+          "name": "Blue",
+          "value": "#4169E1",
+          "available": true,
+          "additionalPrice": 0
+        }
+      ],
+      "variants": [
+        {
+          "value": "128GB",
+          "price": 24999,
+          "available": true
+        },
+        {
+          "value": "256GB",
+          "price": 27999,
+          "available": true
+        }
+      ],
+      "specifications": {
+        "display": "6.7-inch AMOLED",
+        "processor": "MediaTek Dimensity",
+        "ram": "8GB",
+        "storage": "128GB",
+        "rearCamera": "50MP",
+        "battery": "5000 mAh",
+        "operatingSystem": "Android"
+      },
+      "features": [
+        "AMOLED Display",
+        "5G",
+        "50MP Camera",
+        "Fast Charging"
+      ],
+      "boxContents": [
+        "Phone",
+        "USB Cable",
+        "Documentation"
+      ],
+      "warranty": {
+        "available": true,
+        "duration": "1 Year",
+        "type": "Manufacturer Warranty"
+      },
+      "delivery": {
+        "freeDelivery": true,
+        "estimatedDelivery": "2-4 Business Days",
+        "cashOnDelivery": true,
+        "returnAvailable": true,
+        "returnPeriod": "7 Days"
+      },
+      "seller": {
+        "name": "OnePlus Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "offers": [
+        {
+          "title": "Bank Offer",
+          "description": "Get instant discount on selected bank cards.",
+          "type": "bank"
+        },
+        {
+          "title": "EMI Offer",
+          "description": "No-cost EMI available on selected cards.",
+          "type": "emi"
+        }
+      ],
+      "tags": [
+        "OnePlus",
+        "5G",
+        "Smartphone",
+        "AMOLED"
+      ],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "isNew": true,
+      "isWishlisted": false,
+      "seo": {
+        "title": "OnePlus Nord CE Smartphone - Buy Online",
+        "description": "Fast and stylish 5G smartphone with AMOLED display.",
+        "keywords": [
+          "OnePlus",
+          "5G",
+          "Smartphone",
+          "AMOLED"
+        ]
+      },
+      "reviews": [
+        {
+          "id": 1201,
+          "userName": "Rahul",
+          "rating": 5,
+          "title": "Excellent product",
+          "comment": "Very good quality and performance.",
+          "date": "2026-08-21",
+          "verifiedPurchase": true
+        },
+        {
+          "id": 1202,
+          "userName": "Priya",
+          "rating": 4,
+          "title": "Good product",
+          "comment": "Good product for the price.",
+          "date": "2026-08-18",
+          "verifiedPurchase": true
+        }
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "productId": "108",
+      "name": "Women Sari",
+      "slug": "women-sari",
+      "brand": "Biba",
+      "category": "Women",
+      "subCategory": "Saris",
+      "images": [
+        "https://images.unsplash.com/photo-1610030469983-98e550d6193c",
+        "https://images.unsplash.com/photo-1583391733956-6c78276477e2",
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1",
+        "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb"
+      ],
+      "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c",
+      "price": 1299,
+      "originalPrice": 1999,
+      "discountPercentage": 35,
+      "rating": 4.4,
+      "shortDescription": "Traditional printed kurti with modern styling.",
+      "quantity": 1,
+      "size": "XL",
+      "color": "Red",
+      "stock": 20,
+      "seller": {
+        "name": "Biba Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "id": "aVDx8ZhIaE8"
+    },
+    {
+      "productId": "105",
+      "name": "Men Formal Blazer",
+      "slug": "men-formal-blazer",
+      "brand": "Van Heusen",
+      "category": "Men",
+      "subCategory": "Blazers",
+      "images": [
+        "https://images.unsplash.com/photo-1507679799987-c73779587ccf",
+        "https://images.unsplash.com/photo-1598808503746-f34c53b9323e",
+        "https://images.unsplash.com/photo-1555069519-127aadedf1ee",
+        "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc"
+      ],
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf",
+      "price": 4999,
+      "originalPrice": 7999,
+      "discountPercentage": 38,
+      "rating": 4.5,
+      "shortDescription": "Elegant formal blazer for office and events.",
+      "quantity": 1,
+      "size": "L",
+      "color": "Navy",
+      "stock": 20,
+      "seller": {
+        "name": "Van Heusen Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "id": "fahrDd66znI"
+    }
+  ],
+  "wishlist": [
+    {
+      "productId": "103",
+      "name": "Men Slim Fit Jeans",
+      "slug": "men-slim-fit-jeans",
+      "brand": "Wrangler",
+      "category": "Men",
+      "subCategory": "Jeans",
+      "images": [
+        "https://images.unsplash.com/photo-1542272604-787c3835535d",
+        "https://images.unsplash.com/photo-1475178626620-a4d074967452",
+        "https://images.unsplash.com/photo-1541099649105-f69ad21f3246",
+        "https://images.unsplash.com/photo-1602293589930-45aad59ba3ab"
+      ],
+      "image": "https://images.unsplash.com/photo-1542272604-787c3835535d",
+      "price": 1999,
+      "originalPrice": 2999,
+      "discountPercentage": 33,
+      "rating": 4.3,
+      "totalReviews": 421,
+      "shortDescription": "Classic slim-fit jeans for men.",
+      "description": "Durable denim jeans designed for comfort and everyday styling.",
+      "stock": 20,
+      "stockStatus": "In Stock",
+      "colors": [
+        {
+          "name": "Blue",
+          "value": "#1E3A5F",
+          "available": true,
+          "additionalPrice": 0
+        },
+        {
+          "name": "Black",
+          "value": "#111111",
+          "available": true,
+          "additionalPrice": 0
+        }
+      ],
+      "variants": [
+        {
+          "value": "30",
+          "price": 1999,
+          "available": true
+        },
+        {
+          "value": "32",
+          "price": 1999,
+          "available": true
+        },
+        {
+          "value": "34",
+          "price": 2099,
+          "available": true
+        }
+      ],
+      "seller": {
+        "name": "Wrangler Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "selectedColor": "Blue",
+      "selectedSize": "",
+      "addedAt": "2026-09-07T10:16:34.769Z",
+      "id": "d4S9qKLxZGg"
+    },
+    {
+      "productId": "102",
+      "name": "Men Casual Shirt",
+      "slug": "men-casual-shirt",
+      "brand": "Levis",
+      "category": "Men",
+      "subCategory": "Shirts",
+      "images": [
+        "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf",
+        "https://images.unsplash.com/photo-1596755094514-f87e34085b2c",
+        "https://images.unsplash.com/photo-1603252109303-2751441dd157",
+        "https://images.unsplash.com/photo-1589310243389-96a5483213a8"
+      ],
+      "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf",
+      "price": 1499,
+      "originalPrice": 2499,
+      "discountPercentage": 40,
+      "rating": 4.4,
+      "totalReviews": 532,
+      "shortDescription": "Comfortable cotton casual shirt for men.",
+      "description": "Stylish regular-fit cotton shirt suitable for casual and everyday wear.",
+      "stock": 20,
+      "stockStatus": "In Stock",
+      "colors": [
+        {
+          "name": "Blue",
+          "value": "#4169E1",
+          "available": true,
+          "additionalPrice": 0
+        },
+        {
+          "name": "White",
+          "value": "#FFFFFF",
+          "available": true,
+          "additionalPrice": 0
+        }
+      ],
+      "variants": [
+        {
+          "value": "M",
+          "price": 1499,
+          "available": true
+        },
+        {
+          "value": "L",
+          "price": 1499,
+          "available": true
+        },
+        {
+          "value": "XL",
+          "price": 1599,
+          "available": true
+        }
+      ],
+      "seller": {
+        "name": "Levis Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "selectedColor": "Blue",
+      "selectedSize": "M",
+      "addedAt": "2026-09-07T10:27:23.924Z",
+      "id": "NhzM9oTUq48"
+    },
+    {
+      "productId": "101",
+      "name": "Samsung Galaxy S24",
+      "brand": "Samsung",
+      "price": 74999,
+      "originalPrice": 84999,
+      "discountPercentage": 12,
+      "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf",
+      "rating": 4.6,
+      "category": "Electronics",
+      "id": "h3Rd5FSzrww"
+    },
+    {
+      "productId": "107",
+      "name": "Women Handbag",
+      "brand": "Lavie",
+      "price": 1599,
+      "originalPrice": 2499,
+      "discountPercentage": 36,
+      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3",
+      "rating": 4.5,
+      "category": "Women",
+      "id": "CEOSj50n8mo"
+    }
+  ],
+  "orders": [
+    {
+      "id": "hj9NZP8AUhE",
+      "customerName": "Devender",
+      "phone": "7683898942",
+      "address": "Home",
+      "city": "warangal",
+      "pincode": "506356",
+      "paymentMethod": "Cash on Delivery",
+      "date": "7/9/2026, 4:17:04 pm",
+      "status": "Processing",
+      "subtotal": 1499,
+      "discount": 1000,
+      "deliveryCharge": 0,
+      "total": 1499,
+      "items": [
+        {
+          "productId": "102",
+          "name": "Men Casual Shirt",
+          "brand": "Levis",
+          "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf",
+          "images": [
+            "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf",
+            "https://images.unsplash.com/photo-1596755094514-f87e34085b2c",
+            "https://images.unsplash.com/photo-1603252109303-2751441dd157",
+            "https://images.unsplash.com/photo-1589310243389-96a5483213a8"
+          ],
+          "price": 1499,
+          "originalPrice": 2499,
+          "quantity": 1,
+          "size": "L",
+          "color": "Blue",
+          "shortDescription": "Comfortable cotton casual shirt for men."
+        }
+      ]
+    },
+    {
+      "id": "5dRJhLxcxK8",
+      "customerName": "Bunny",
+      "phone": "7679898936",
+      "address": "3-57/1,challagarige",
+      "city": "Hyd",
+      "pincode": "500000",
+      "paymentMethod": "Cash on Delivery",
+      "date": "7/9/2026, 4:18:13 pm",
+      "status": "Processing",
+      "subtotal": 4797,
+      "discount": 2800,
+      "deliveryCharge": 0,
+      "total": 4797,
+      "items": [
+        {
+          "productId": "103",
+          "name": "Men Slim Fit Jeans",
+          "brand": "Wrangler",
+          "image": "https://images.unsplash.com/photo-1542272604-787c3835535d",
+          "images": [
+            "https://images.unsplash.com/photo-1542272604-787c3835535d",
+            "https://images.unsplash.com/photo-1475178626620-a4d074967452",
+            "https://images.unsplash.com/photo-1541099649105-f69ad21f3246",
+            "https://images.unsplash.com/photo-1602293589930-45aad59ba3ab"
+          ],
+          "price": 1999,
+          "originalPrice": 2999,
+          "quantity": 1,
+          "size": "32",
+          "color": "Blue",
+          "shortDescription": "Classic slim-fit jeans for men."
+        },
+        {
+          "productId": "106",
+          "name": "Women Floral Dress",
+          "brand": "ONLY",
+          "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446",
+          "images": [
+            "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446",
+            "https://images.unsplash.com/photo-1496747611176-843222e1e57c",
+            "https://images.unsplash.com/photo-1539008835657-9e8e9680c956",
+            "https://images.unsplash.com/photo-1595777457583-95e059d581b8"
+          ],
+          "price": 1799,
+          "originalPrice": 2999,
+          "quantity": 1,
+          "size": "L",
+          "color": "Pink",
+          "shortDescription": "Elegant floral dress for women."
+        },
+        {
+          "productId": "104",
+          "name": "Men Polo T Shirt",
+          "brand": "Puma",
+          "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+          "images": [
+            "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+            "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c",
+            "https://images.unsplash.com/photo-1583743814966-8936f37f4678",
+            "https://images.unsplash.com/photo-1562157873-818bc0726f68"
+          ],
+          "price": 999,
+          "originalPrice": 1599,
+          "quantity": 1,
+          "size": "XL",
+          "color": "Black",
+          "shortDescription": "Comfortable polo t-shirt with a sporty look."
+        }
+      ]
+    },
+    {
+      "id": "0luTOYUw4pQ",
+      "customerName": "Ganesh",
+      "phone": "7878687976",
+      "address": "Ganesh Home",
+      "city": "Jaya Shankar",
+      "pincode": "506356",
+      "paymentMethod": "UPI",
+      "date": "7/9/2026, 4:30:25 pm",
+      "status": "Processing",
+      "subtotal": 74999,
+      "discount": 10000,
+      "deliveryCharge": 0,
+      "total": 74999,
+      "items": [
+        {
+          "productId": "101",
+          "name": "Samsung Galaxy S24",
+          "brand": "Samsung",
+          "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf",
+          "images": [
+            "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf",
+            "https://images.unsplash.com/photo-1598327105666-5b89351aff97",
+            "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+            "https://images.unsplash.com/photo-1565849904461-04a58ad377e0"
+          ],
+          "price": 74999,
+          "originalPrice": 84999,
+          "quantity": 1,
+          "size": "256GB",
+          "color": "Blue",
+          "shortDescription": "Powerful Android smartphone with a premium display."
+        }
+      ]
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

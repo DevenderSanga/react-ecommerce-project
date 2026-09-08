@@ -1,0 +1,510 @@
+/* =========================
+   CART PAGE
+========================= */
+
+.cart-page {
+    background: #f7f7f7;
+    min-height: 100vh;
+    padding: 35px 6%;
+}
+
+/* Header */
+
+.cart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.cart-header h1 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #222;
+}
+
+.cart-header p {
+    margin: 6px 0 0;
+    color: #777;
+}
+
+.continue-shopping {
+    text-decoration: none;
+    color: #ff3f6c;
+    font-weight: 600;
+}
+
+/* =========================
+   CART LAYOUT
+========================= */
+
+.cart-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(300px, 1fr);
+    gap: 25px;
+    align-items: start;
+}
+
+/* =========================
+   LEFT CART SECTION
+========================= */
+
+.cart-items-section {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #eee;
+}
+
+.cart-items-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    border-bottom: 1px solid #eee;
+}
+
+.cart-items-header h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.cart-items-header span {
+    color: #777;
+    font-size: 13px;
+}
+
+/* =========================
+   CART ITEM
+========================= */
+
+.cart-item {
+    display: flex;
+    gap: 25px;
+    padding: 25px;
+    border-bottom: 1px solid #eee;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+/* Product image */
+
+.cart-image-container {
+    width: 180px;
+    height: 210px;
+    flex-shrink: 0;
+    background: #f8f8f8;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.cart-product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 12px;
+    transition: transform 0.3s ease;
+}
+
+.cart-product-image:hover {
+    transform: scale(1.05);
+}
+
+/* Product information */
+
+.cart-product-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.product-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.cart-brand {
+    margin: 0 0 5px;
+    color: #555;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cart-product-name {
+    display: block;
+    text-decoration: none;
+    color: #222;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cart-product-name:hover {
+    color: #ff3f6c;
+}
+
+.cart-description {
+    color: #777;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 10px 0;
+    max-width: 600px;
+}
+
+/* Remove */
+
+.remove-btn {
+    border: none;
+    background: transparent;
+    color: #777;
+    cursor: pointer;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.remove-btn:hover {
+    color: #ff3f6c;
+}
+
+/* =========================
+   OPTIONS
+========================= */
+
+.cart-options {
+    display: flex;
+    gap: 12px;
+    margin: 12px 0;
+}
+
+.cart-options span {
+    background: #f5f5f5;
+    padding: 7px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #555;
+}
+
+/* =========================
+   PRICE
+========================= */
+
+.cart-price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 12px 0;
+}
+
+.cart-price strong {
+    font-size: 19px;
+    color: #222;
+}
+
+.cart-price del {
+    color: #999;
+    font-size: 14px;
+}
+
+.discount {
+    color: #03a685;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* =========================
+   QUANTITY
+========================= */
+
+.cart-bottom {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 18px;
+}
+
+.quantity-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.quantity-box button {
+    width: 35px;
+    height: 35px;
+    border: none;
+    background: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.quantity-box button:hover {
+    background: #f5f5f5;
+}
+
+.quantity-box span {
+    width: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.delivery-text {
+    color: #555;
+    font-size: 13px;
+}
+
+/* =========================
+   PRICE DETAILS
+========================= */
+
+/* .price-section {
+    position: sticky;
+    top: 20px;
+} */
+
+.price-card {
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    padding: 25px;
+}
+
+.price-card h3 {
+    margin: 0 0 25px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: #555;
+}
+
+.price-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    font-size: 14px;
+    color: #444;
+}
+
+.discount-row {
+    color: #03a685;
+}
+
+.free {
+    color: #03a685;
+    font-weight: 600;
+}
+
+.price-divider {
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+.total-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    color: #222;
+}
+
+.savings {
+    background: #f0fff8;
+    color: #03a685;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 18px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* Checkout */
+
+.checkout-btn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: #ff3f6c;
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.checkout-btn:hover {
+    background: #e7335f;
+    color: white;
+}
+
+/* =========================
+   SECURITY
+========================= */
+
+.secure-box {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 18px;
+}
+
+.secure-box div:first-child {
+    font-size: 25px;
+}
+
+.secure-box strong {
+    font-size: 13px;
+}
+
+.secure-box p {
+    margin: 4px 0 0;
+    font-size: 12px;
+    color: #888;
+}
+
+/* =========================
+   EMPTY CART
+========================= */
+
+.empty-cart {
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 80px 20px;
+    border: 1px solid #eee;
+}
+
+.empty-cart-icon {
+    font-size: 65px;
+    margin-bottom: 15px;
+}
+
+.empty-cart h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.empty-cart p {
+    color: #777;
+    margin: 10px 0 25px;
+}
+
+.shop-now-btn {
+    display: inline-block;
+    background: #ff3f6c;
+    color: white;
+    text-decoration: none;
+    padding: 13px 35px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.shop-now-btn:hover {
+    color: white;
+    background: #e7335f;
+}
+
+/* =========================
+   LOADING
+========================= */
+
+.cart-loading {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-loading p {
+    margin-top: 15px;
+    color: #777;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 1000px) {
+
+    .cart-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .price-section {
+        position: static;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .cart-page {
+        padding: 20px 15px;
+    }
+
+    .cart-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .cart-header h1 {
+        font-size: 25px;
+    }
+
+    .cart-items-header {
+        padding: 15px;
+    }
+
+    .cart-items-header span {
+        display: none;
+    }
+
+    .cart-item {
+        padding: 18px;
+        gap: 15px;
+    }
+
+    .cart-image-container {
+        width: 110px;
+        height: 140px;
+    }
+
+    .cart-product-name {
+        font-size: 15px;
+    }
+
+    .cart-description {
+        display: none;
+    }
+
+    .product-top {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .remove-btn {
+        text-align: left;
+    }
+
+    .cart-options {
+        flex-wrap: wrap;
+    }
+
+    .cart-price {
+        flex-wrap: wrap;
+    }
+
+    .cart-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+}
