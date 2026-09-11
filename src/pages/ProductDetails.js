@@ -31,37 +31,34 @@ const ProductDetails = () => {
 
             setProduct(data);
 
-            // First Image
+            // ==================================
+            // FIRST IMAGE ONLY
+            // ==================================
+
             if (data.images && data.images.length > 0) {
                 setSelectedImage(data.images[0]);
             } else if (data.image) {
                 setSelectedImage(data.image);
             }
 
-            // First Color
-            if (data.colors && data.colors.length > 0) {
-                const firstColor = data.colors[0];
+            // ==================================
+            // SIZE EMPTY BY DEFAULT
+            // USER MUST SELECT
+            // ==================================
 
-                setSelectedColor(
-                    typeof firstColor === "string"
-                        ? firstColor
-                        : firstColor.name
-                );
-            }
+            setSelectedSize("");
 
-            // First Variant
-            if (data.variants && data.variants.length > 0) {
-                const firstVariant = data.variants[0];
+            // ==================================
+            // COLOR EMPTY BY DEFAULT
+            // USER MUST SELECT
+            // ==================================
 
-                setSelectedSize(
-                    firstVariant.value ||
-                    firstVariant.size ||
-                    ""
-                );
-            }
+            setSelectedColor("");
 
         } catch (error) {
             console.log("Error fetching product:", error);
+
+            toast.error("Unable to load product.");
         }
     };
 
@@ -99,7 +96,7 @@ const ProductDetails = () => {
             : [];
 
     // ==========================================
-    // VARIANTS
+    // VARIANTS / SIZES
     // ==========================================
 
     const productVariants =
@@ -121,7 +118,7 @@ const ProductDetails = () => {
     });
 
     // ==========================================
-    // CURRENT PRICE
+    // PRICE
     // ==========================================
 
     const currentPrice =
@@ -147,40 +144,56 @@ const ProductDetails = () => {
         );
 
     // ==========================================
+    // VALIDATE PRODUCT OPTIONS
+    // ==========================================
+
+    const validateProductOptions = () => {
+
+        // Stock Check
+        if (
+            product.stockStatus &&
+            product.stockStatus !== "In Stock"
+        ) {
+            toast.info("Product is currently out of stock.");
+            return false;
+        }
+
+        // Size Check
+        if (
+            productVariants.length > 0 &&
+            !selectedSize
+        ) {
+            toast.warning("Please select a size.");
+            return false;
+        }
+
+        // Color Check
+        if (
+            productColors.length > 0 &&
+            !selectedColor
+        ) {
+            toast.warning("Please select a color.");
+            return false;
+        }
+
+        return true;
+    };
+
+    // ==========================================
     // ADD TO CART
     // ==========================================
 
     const addToCart = async () => {
         try {
 
-            // Stock Check
-            if (
-                product.stockStatus &&
-                product.stockStatus !== "In Stock"
-            ) {
-                toast.info("Product is already in wishlist.");
+            if (!validateProductOptions()) {
                 return;
             }
 
-            // Size Check
-            if (
-                productVariants.length > 0 &&
-                !selectedSize
-            ) {
-                toast.warning("Please select a size.");
-                return;
-            }
+            // ==================================
+            // CHECK EXISTING CART
+            // ==================================
 
-            // Color Check
-            if (
-                productColors.length > 0 &&
-                !selectedColor
-            ) {
-                toast.warning("Please select a color.");
-                return;
-            }
-
-            // Check Existing Cart
             const response = await axios.get(
                 `http://localhost:5001/cart?productId=${product.id}&size=${encodeURIComponent(
                     selectedSize || ""
@@ -188,6 +201,10 @@ const ProductDetails = () => {
                     selectedColor || ""
                 )}`
             );
+
+            // ==================================
+            // UPDATE EXISTING CART ITEM
+            // ==================================
 
             if (response.data.length > 0) {
 
@@ -202,6 +219,10 @@ const ProductDetails = () => {
                 );
 
             } else {
+
+                // ==================================
+                // ADD NEW CART ITEM
+                // ==================================
 
                 await axios.post(
                     "http://localhost:5001/cart",
@@ -253,7 +274,10 @@ const ProductDetails = () => {
                 );
             }
 
-            // Update Navbar Cart Count
+            // ==================================
+            // UPDATE NAVBAR CART COUNT
+            // ==================================
+
             window.dispatchEvent(
                 new Event("cartUpdated")
             );
@@ -267,7 +291,7 @@ const ProductDetails = () => {
                 error
             );
 
-          toast.error("Something went wrong!");
+            toast.error("Something went wrong!");
         }
     };
 
@@ -361,7 +385,9 @@ const ProductDetails = () => {
                 error
             );
 
-            alert("Unable to add product to wishlist.");
+            toast.error(
+                "Unable to add product to wishlist."
+            );
         }
     };
 
@@ -372,30 +398,7 @@ const ProductDetails = () => {
     const buyNow = () => {
         try {
 
-            // Stock
-            if (
-                product.stockStatus &&
-                product.stockStatus !== "In Stock"
-            ) {
-                toast.info("Product is currently out of stock.");
-                return;
-            }
-
-            // Size
-            if (
-                productVariants.length > 0 &&
-                !selectedSize
-            ) {
-                toast.warning("Please select a size.");
-                return;
-            }
-
-            // Color
-            if (
-                productColors.length > 0 &&
-                !selectedColor
-            ) {
-                toast.warning("Please select a color.");
+            if (!validateProductOptions()) {
                 return;
             }
 
@@ -453,6 +456,8 @@ const ProductDetails = () => {
                 "Buy Now error:",
                 error
             );
+
+            toast.error("Unable to continue.");
         }
     };
 
@@ -497,10 +502,11 @@ const ProductDetails = () => {
 
                                     <div
                                         key={index}
-                                        className={`thumbnail ${selectedImage === image
-                                            ? "active-thumbnail"
-                                            : ""
-                                            }`}
+                                        className={`thumbnail ${
+                                            selectedImage === image
+                                                ? "active-thumbnail"
+                                                : ""
+                                        }`}
                                         onClick={() =>
                                             setSelectedImage(image)
                                         }
@@ -508,11 +514,13 @@ const ProductDetails = () => {
 
                                         <img
                                             src={image}
-                                            alt={`${product.name} ${index + 1
-                                                }`}
+                                            alt={`${product.name} ${
+                                                index + 1
+                                            }`}
                                         />
 
                                     </div>
+
                                 )
                             )}
 
@@ -675,11 +683,12 @@ const ProductDetails = () => {
                                             <button
                                                 key={index}
                                                 type="button"
-                                                className={`color-option ${selectedColor ===
+                                                className={`color-option ${
+                                                    selectedColor ===
                                                     colorName
-                                                    ? "selected-color"
-                                                    : ""
-                                                    }`}
+                                                        ? "selected-color"
+                                                        : ""
+                                                }`}
                                                 onClick={() =>
                                                     setSelectedColor(
                                                         colorName
@@ -702,10 +711,21 @@ const ProductDetails = () => {
                                             </button>
 
                                         );
+
                                     }
                                 )}
 
                             </div>
+
+                            {/* SELECTED COLOR */}
+
+                            <p className="selected-option-text">
+
+                                {selectedColor
+                                    ? `Selected: ${selectedColor}`
+                                    : "Please select a color"}
+
+                            </p>
 
                         </div>
 
@@ -746,11 +766,12 @@ const ProductDetails = () => {
                                             <button
                                                 key={index}
                                                 type="button"
-                                                className={`size-button ${selectedSize ===
+                                                className={`size-button ${
+                                                    selectedSize ===
                                                     variantValue
-                                                    ? "selected-size"
-                                                    : ""
-                                                    }`}
+                                                        ? "selected-size"
+                                                        : ""
+                                                }`}
                                                 onClick={() =>
                                                     setSelectedSize(
                                                         variantValue
@@ -761,10 +782,21 @@ const ProductDetails = () => {
                                             </button>
 
                                         );
+
                                     }
                                 )}
 
                             </div>
+
+                            {/* SELECTED SIZE */}
+
+                            <p className="selected-option-text">
+
+                                {selectedSize
+                                    ? `Selected: ${selectedSize}`
+                                    : "Please select a size"}
+
+                            </p>
 
                         </div>
 
@@ -844,6 +876,7 @@ const ProductDetails = () => {
                                             className="offer-item"
                                             key={index}
                                         >
+
                                             <span>
                                                 ✓
                                             </span>
@@ -862,6 +895,7 @@ const ProductDetails = () => {
                                 )}
 
                             </div>
+
                         )}
 
                     {/* ==================================
