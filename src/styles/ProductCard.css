@@ -1,352 +1,434 @@
-/* =========================
-   PRODUCT GRID
-========================= */
-
-.products-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    padding: 20px;
-    align-items: stretch;
-}
-
-
-/* =========================
+/* =====================================================
    PRODUCT CARD
-========================= */
+===================================================== */
 
 .myntra-card {
-    background: #fff;
-    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+
+    background: #ffffff;
+
+    border: 1px solid #eeeeee;
+    border-radius: 6px;
+
     overflow: hidden;
+
+    box-sizing: border-box;
 
     display: flex;
     flex-direction: column;
 
-    height: 100%;
-    min-height: 560px;
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
 
-    transition: all 0.25s ease;
+    position: relative;
 }
-/* 
+
+
+/* =====================================================
+   CARD HOVER
+===================================================== */
+
 .myntra-card:hover {
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
-    transform: translateY(-3px);
-} */
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 8px 25px rgba(0, 0, 0, 0.10);
+}
 
 
-/* =========================
-   IMAGE
-========================= */
+/* =====================================================
+   IMAGE CONTAINER
+===================================================== */
 
 .myntra-image-container {
+    width: 100%;
+    height: 320px;
+
     position: relative;
 
-    width: 100%;
-    height: 310px;
+    background: #f7f7f7;
 
     overflow: hidden;
-    background: #f5f5f5;
 
     flex-shrink: 0;
 }
+
+
+/* =====================================================
+   PRODUCT IMAGE
+===================================================== */
 
 .myntra-product-image {
     width: 100%;
     height: 100%;
 
-    object-fit: cover;
-
     display: block;
 
-    transition: transform 0.3s ease;
+    object-fit: cover;
+
+    transition: transform 0.35s ease;
 }
 
-/* .myntra-card:hover .myntra-product-image {
-    transform: scale(1.03);
-} */
+.myntra-card:hover .myntra-product-image {
+    transform: scale(1.04);
+}
 
 
-/* =========================
-   DISCOUNT
-========================= */
+/* =====================================================
+   DISCOUNT BADGE
+===================================================== */
 
-.discount-badge {
+.myntra-discount {
     position: absolute;
 
-    top: 0;
     left: 10px;
+    bottom: 10px;
 
-    background: #ff3f6c;
-    color: white;
+    background: #ffffff;
+
+    color: #ff3f6c;
 
     font-size: 11px;
+
     font-weight: 700;
 
-    padding: 6px 9px;
+    padding: 5px 8px;
+
+    border-radius: 3px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
 }
 
 
-/* =========================
-   WISHLIST
-========================= */
+/* =====================================================
+   WISHLIST BUTTON
+===================================================== */
 
-.wishlist-btn {
+.myntra-wishlist {
     position: absolute;
 
-    top: 10px;
-    right: 10px;
+    top: 12px;
+    right: 12px;
 
     width: 38px;
     height: 38px;
 
     border: none;
+
     border-radius: 50%;
 
-    background: white;
+    background: rgba(255, 255, 255, 0.95);
 
-    font-size: 22px;
+    color: #282c3f;
 
-    cursor: pointer;
+    font-size: 23px;
 
     display: flex;
+
     align-items: center;
     justify-content: center;
 
-    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 
-    z-index: 5;
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.12);
 
-    transition: 0.2s ease;
+    transition: 0.2s;
+
+    z-index: 2;
 }
 
-.wishlist-btn:hover {
-    transform: scale(1.1);
+.myntra-wishlist:hover {
+    color: #ff3f6c;
+
+    transform: scale(1.08);
 }
 
-.wishlist-btn.wishlisted {
+.myntra-wishlist.wishlist-active {
     color: #ff3f6c;
 }
 
 
-/* =========================
-   RATING
-========================= */
+/* =====================================================
+   PRODUCT INFORMATION
+===================================================== */
 
-.image-rating {
-    position: absolute;
-
-    bottom: 10px;
-    left: 10px;
-
-    background: white;
-
-    padding: 6px 9px;
-
-    border-radius: 3px;
-
-    font-size: 12px;
-    font-weight: 600;
-
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
-}
-
-
-/* =========================
-   PRODUCT DETAILS
-========================= */
-
-.myntra-details {
-    padding: 14px 10px 12px;
+.myntra-product-info {
+    padding: 14px 14px 16px;
 
     display: flex;
+
     flex-direction: column;
 
     flex: 1;
+
+    box-sizing: border-box;
 }
 
 
+/* =====================================================
+   BRAND
+===================================================== */
 
-
-.product-name {
-    margin: 0 0 5px;
-
-    font-size: 16px;
-    font-weight: 700;
-
+.myntra-brand {
     color: #282c3f;
-
-    height: 22px;
-
-    overflow: hidden;
-}
-
-
-
-
-.product-brand {
-    margin: 0 0 7px;
 
     font-size: 14px;
 
-    color: #535766;
+    font-weight: 700;
 
-    height: 20px;
+    margin: 0 0 5px;
 
-    line-height: 20px;
+    white-space: nowrap;
 
     overflow: hidden;
 
-    white-space: nowrap;
     text-overflow: ellipsis;
 }
 
 
-/* DESCRIPTION */
+/* =====================================================
+   PRODUCT NAME
+===================================================== */
 
-.product-description {
-    margin: 0 0 8px;
+.myntra-product-name {
+    color: #535766;
 
-    font-size: 14px;
+    font-size: 15px;
 
-    line-height: 21px;
+    font-weight: 400;
 
-    color: #6c6c6c;
+    line-height: 1.4;
 
-    /*
-       Every card gets same description height.
-       2 lines × 21px = 42px
-    */
+    margin: 0 0 7px;
 
-    height: 50px;
-
-    overflow: hidden;
+    min-height: 42px;
 
     display: -webkit-box;
+
     -webkit-line-clamp: 2;
+
     -webkit-box-orient: vertical;
+
+    overflow: hidden;
 }
 
 
-/* CATEGORY */
+/* =====================================================
+   DESCRIPTION
+===================================================== */
 
-.product-category {
-    margin: 0 0 8px;
+.myntra-description {
+    color: #7e818c;
 
     font-size: 12px;
 
-    color: #999;
+    line-height: 1.5;
 
-    height: 18px;
+    margin: 0 0 8px;
+
+    min-height: 36px;
+
+    display: -webkit-box;
+
+    -webkit-line-clamp: 2;
+
+    -webkit-box-orient: vertical;
+
+    overflow: hidden;
 }
 
 
-/* =========================
-   PRICE
-========================= */
+/* =====================================================
+   RATING
+===================================================== */
 
-.price-row {
-    display: flex;
+.myntra-rating {
+    display: inline-flex;
+
     align-items: center;
 
-    gap: 10px;
+    gap: 4px;
 
-    min-height: 25px;
+    width: fit-content;
 
-    margin-bottom: 12px;
+    padding: 4px 7px;
 
-    white-space: nowrap;
+    margin-bottom: 9px;
+
+    background: #f5f5f6;
+
+    border-radius: 3px;
+
+    color: #282c3f;
+
+    font-size: 11px;
+
+    font-weight: 600;
 }
 
-.current-price {
+.myntra-rating span:first-child {
+    color: #14958f;
+}
+
+.myntra-rating .review-count {
+    color: #94969f;
+
+    font-weight: 400;
+}
+
+
+/* =====================================================
+   PRICE ROW
+===================================================== */
+
+.myntra-price-row {
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 7px;
+
+    margin-top: auto;
+
+    padding-top: 8px;
+}
+
+
+/* Current price */
+
+.myntra-price {
+    color: #282c3f;
+
     font-size: 16px;
 
     font-weight: 700;
-
-    color: #282c3f;
 }
 
-.original-price {
-    font-size: 12px;
 
-    color: #999;
+/* Original price */
+
+.myntra-original-price {
+    color: #94969f;
+
+    font-size: 12px;
 
     text-decoration: line-through;
 }
 
-.discount-text {
-    font-size: 12px;
 
-    color: #149c75;
+/* Discount */
+
+.myntra-price-discount {
+    color: #ff905a;
+
+    font-size: 11px;
 
     font-weight: 600;
 }
 
 
-/* =========================
+/* =====================================================
    VIEW DETAILS BUTTON
-========================= */
+===================================================== */
 
-.view-product-btn {
-    margin-top: auto;
+.myntra-view-button {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
 
     width: 100%;
 
-    height: 40px;
+    height: 38px;
 
-    background: #ff3f6c;
+    margin-top: 12px;
 
-    color: white;
+    box-sizing: border-box;
+
+    border: 1px solid #ff3f6c;
+
+    border-radius: 4px;
+
+    background: #ffffff;
+
+    color: #ff3f6c;
 
     text-decoration: none;
 
-    border-radius: 3px;
+    font-size: 13px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    font-size: 14px;
     font-weight: 700;
 
-    transition: background 0.2s ease;
+    transition: 0.2s;
 }
 
-.view-product-btn:hover {
-    background: #e73560;
-}
+.myntra-view-button:hover {
+    background: #ff3f6c;
 
-
-/* =========================
-   RESPONSIVE
-========================= */
-
-@media (max-width: 1100px) {
-
-    .products-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
+    color: #ffffff;
 }
 
 
-@media (max-width: 800px) {
+/* =====================================================
+   TABLET
+===================================================== */
 
-    .products-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-}
-
-
-@media (max-width: 500px) {
-
-    .products-grid {
-        grid-template-columns: 1fr;
-    }
+@media (max-width: 900px) {
 
     .myntra-image-container {
-        height: 350px;
+        height: 280px;
+    }
+
+    .myntra-product-info {
+        padding: 12px;
+    }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 600px) {
+
+    .myntra-image-container {
+        height: 240px;
+    }
+
+    .myntra-product-name {
+        font-size: 14px;
+    }
+
+    .myntra-price {
+        font-size: 15px;
+    }
+
+    .myntra-original-price {
+        font-size: 11px;
+    }
+
+    .myntra-price-discount {
+        font-size: 10px;
+    }
+
+}
+
+
+/* =====================================================
+   VERY SMALL SCREEN
+===================================================== */
+
+@media (max-width: 400px) {
+
+    .myntra-image-container {
+        height: 300px;
     }
 
 }

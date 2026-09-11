@@ -9,6 +9,8 @@ import Cart from "./pages/Cart"
 import Wishlist from "./pages/Wishlist";
 import Orders from "./pages/Orders";
 import Checkout from "./pages/Checkout";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 function App() {
   return (
     <BrowserRouter>
@@ -18,10 +20,15 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/products/:id" element={<ProductDetails />} />
         <Route path="/cart" element={<Cart />} />
-        <Route path="/wishlist" element={<Wishlist/>} />
-        <Route path="//orders" element={<Orders/>} />
-        <Route path="/checkout" element={<Checkout/>} />
+        <Route path="/wishlist" element={<Wishlist />} />
+        <Route path="//orders" element={<Orders />} />
+        <Route path="/checkout" element={<Checkout />} />
+
       </Routes>
+      <ToastContainer
+        position="top-right"
+        autoClose={2000}
+      />
     </BrowserRouter>
   );
 }

@@ -11,6 +11,7 @@ const Products = () => {
 
     const [search, setSearch] = useState("");
     const [brand, setBrand] = useState("All");
+    const [loading, setLoading] = useState(true);
 
     const category = searchParams.get("category") || "All";
 
@@ -20,17 +21,19 @@ const Products = () => {
 
     const getProducts = async () => {
         try {
+            setLoading(true);
+
             const response = await axios.get(
                 "http://localhost:5001/products"
             );
 
             setProducts(response.data);
-
         } catch (error) {
-            console.log("Error fetching products:", error);
+            console.log(error);
+        } finally {
+            setLoading(false);
         }
     };
-
     const brands = [
         "All",
         ...new Set(
@@ -117,25 +120,25 @@ const Products = () => {
 
             </div>
 
-            {/* Products */}
-            <div className="product-grid">
-
-                {filteredProducts.length > 0 ? (
-
-                    filteredProducts.map((product) => (
+            {loading ? (
+                <div className="loader-container">
+                    <div className="loader"></div>
+                    <p>Loading products...</p>
+                </div>
+            ) : filteredProducts.length === 0 ? (
+                <div className="no-data">
+                    No products found
+                </div>
+            ) : (
+                <div className="products-grid">
+                    {filteredProducts.map((product) => (
                         <ProductCard
                             key={product.id}
                             product={product}
                         />
-                    ))
-
-                ) : (
-
-                    <h2>No products found</h2>
-
-                )}
-
-            </div>
+                    ))}
+                </div>
+            )}
 
         </div>
     );

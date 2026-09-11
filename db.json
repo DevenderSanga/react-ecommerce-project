@@ -2822,66 +2822,130 @@
   ],
   "cart": [
     {
-      "productId": "108",
-      "name": "Women Sari",
-      "slug": "women-sari",
-      "brand": "Biba",
-      "category": "Women",
-      "subCategory": "Saris",
+      "productId": "103",
+      "name": "Men Slim Fit Jeans",
+      "slug": "men-slim-fit-jeans",
+      "brand": "Wrangler",
+      "category": "Men",
+      "subCategory": "Jeans",
       "images": [
-        "https://images.unsplash.com/photo-1610030469983-98e550d6193c",
-        "https://images.unsplash.com/photo-1583391733956-6c78276477e2",
-        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1",
-        "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb"
+        "https://images.unsplash.com/photo-1542272604-787c3835535d",
+        "https://images.unsplash.com/photo-1475178626620-a4d074967452",
+        "https://images.unsplash.com/photo-1541099649105-f69ad21f3246",
+        "https://images.unsplash.com/photo-1602293589930-45aad59ba3ab"
       ],
-      "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c",
-      "price": 1299,
-      "originalPrice": 1999,
-      "discountPercentage": 35,
-      "rating": 4.4,
-      "shortDescription": "Traditional printed kurti with modern styling.",
+      "image": "https://images.unsplash.com/photo-1542272604-787c3835535d",
+      "price": 1999,
+      "originalPrice": 2999,
+      "discountPercentage": 33,
+      "rating": 4.3,
+      "shortDescription": "Classic slim-fit jeans for men.",
       "quantity": 1,
-      "size": "XL",
-      "color": "Red",
+      "size": "34",
+      "color": "Blue",
       "stock": 20,
       "seller": {
-        "name": "Biba Authorized Seller",
+        "name": "Wrangler Authorized Seller",
         "rating": 4.7,
         "totalProducts": 500,
         "verified": true
       },
-      "id": "aVDx8ZhIaE8"
+      "id": "Hb_ESn0rx2A"
     },
     {
-      "productId": "105",
-      "name": "Men Formal Blazer",
-      "slug": "men-formal-blazer",
-      "brand": "Van Heusen",
-      "category": "Men",
-      "subCategory": "Blazers",
+      "productId": "101",
+      "name": "Samsung Galaxy S24",
+      "slug": "samsung-galaxy-s24",
+      "brand": "Samsung",
+      "category": "Electronics",
+      "subCategory": "Smartphones",
       "images": [
-        "https://images.unsplash.com/photo-1507679799987-c73779587ccf",
-        "https://images.unsplash.com/photo-1598808503746-f34c53b9323e",
-        "https://images.unsplash.com/photo-1555069519-127aadedf1ee",
-        "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc"
+        "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf",
+        "https://images.unsplash.com/photo-1598327105666-5b89351aff97",
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+        "https://images.unsplash.com/photo-1565849904461-04a58ad377e0"
       ],
-      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf",
-      "price": 4999,
-      "originalPrice": 7999,
-      "discountPercentage": 38,
-      "rating": 4.5,
-      "shortDescription": "Elegant formal blazer for office and events.",
+      "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf",
+      "price": 74999,
+      "originalPrice": 84999,
+      "discountPercentage": 12,
+      "rating": 4.6,
+      "shortDescription": "Powerful Android smartphone with a premium display.",
       "quantity": 1,
-      "size": "L",
-      "color": "Navy",
+      "size": "256GB",
+      "color": "Black",
       "stock": 20,
       "seller": {
-        "name": "Van Heusen Authorized Seller",
+        "name": "Samsung Authorized Seller",
         "rating": 4.7,
         "totalProducts": 500,
         "verified": true
       },
-      "id": "fahrDd66znI"
+      "id": "1LnqyZUhlmU"
+    },
+    {
+      "productId": "103",
+      "name": "Men Slim Fit Jeans",
+      "slug": "men-slim-fit-jeans",
+      "brand": "Wrangler",
+      "category": "Men",
+      "subCategory": "Jeans",
+      "images": [
+        "https://images.unsplash.com/photo-1542272604-787c3835535d",
+        "https://images.unsplash.com/photo-1475178626620-a4d074967452",
+        "https://images.unsplash.com/photo-1541099649105-f69ad21f3246",
+        "https://images.unsplash.com/photo-1602293589930-45aad59ba3ab"
+      ],
+      "image": "https://images.unsplash.com/photo-1542272604-787c3835535d",
+      "price": 1999,
+      "originalPrice": 2999,
+      "discountPercentage": 33,
+      "rating": 4.3,
+      "totalReviews": 421,
+      "shortDescription": "Classic slim-fit jeans for men.",
+      "quantity": 1,
+      "size": "30",
+      "color": "Blue",
+      "stock": 20,
+      "seller": {
+        "name": "Wrangler Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "id": "jIdW4B5dg4I"
+    },
+    {
+      "productId": "102",
+      "name": "Men Casual Shirt",
+      "slug": "men-casual-shirt",
+      "brand": "Levis",
+      "category": "Men",
+      "subCategory": "Shirts",
+      "images": [
+        "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf",
+        "https://images.unsplash.com/photo-1596755094514-f87e34085b2c",
+        "https://images.unsplash.com/photo-1603252109303-2751441dd157",
+        "https://images.unsplash.com/photo-1589310243389-96a5483213a8"
+      ],
+      "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf",
+      "price": 1499,
+      "originalPrice": 2499,
+      "discountPercentage": 40,
+      "rating": 4.4,
+      "totalReviews": 532,
+      "shortDescription": "Comfortable cotton casual shirt for men.",
+      "quantity": 1,
+      "size": "M",
+      "color": "White",
+      "stock": 20,
+      "seller": {
+        "name": "Levis Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "id": "6CiSYYWPxpA"
     }
   ],
   "wishlist": [
@@ -3038,6 +3102,154 @@
       "rating": 4.5,
       "category": "Women",
       "id": "CEOSj50n8mo"
+    },
+    {
+      "productId": "102",
+      "name": "Men Casual Shirt",
+      "slug": "men-casual-shirt",
+      "brand": "Levis",
+      "category": "Men",
+      "subCategory": "Shirts",
+      "images": [
+        "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf",
+        "https://images.unsplash.com/photo-1596755094514-f87e34085b2c",
+        "https://images.unsplash.com/photo-1603252109303-2751441dd157",
+        "https://images.unsplash.com/photo-1589310243389-96a5483213a8"
+      ],
+      "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf",
+      "price": 1499,
+      "originalPrice": 2499,
+      "discountPercentage": 40,
+      "rating": 4.4,
+      "totalReviews": 532,
+      "shortDescription": "Comfortable cotton casual shirt for men.",
+      "description": "Stylish regular-fit cotton shirt suitable for casual and everyday wear.",
+      "stock": 20,
+      "stockStatus": "In Stock",
+      "colors": [
+        {
+          "name": "Blue",
+          "value": "#4169E1",
+          "available": true,
+          "additionalPrice": 0
+        },
+        {
+          "name": "White",
+          "value": "#FFFFFF",
+          "available": true,
+          "additionalPrice": 0
+        }
+      ],
+      "variants": [
+        {
+          "value": "M",
+          "price": 1499,
+          "available": true
+        },
+        {
+          "value": "L",
+          "price": 1499,
+          "available": true
+        },
+        {
+          "value": "XL",
+          "price": 1599,
+          "available": true
+        }
+      ],
+      "seller": {
+        "name": "Levis Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "selectedColor": "Blue",
+      "selectedSize": "XL",
+      "addedAt": "2026-09-10T11:03:56.048Z",
+      "id": "5YqMmzK2P_M"
+    },
+    {
+      "productId": "101",
+      "name": "Samsung Galaxy S24",
+      "brand": "Samsung",
+      "price": 74999,
+      "originalPrice": 84999,
+      "discountPercentage": 12,
+      "images": [
+        "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf",
+        "https://images.unsplash.com/photo-1598327105666-5b89351aff97",
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+        "https://images.unsplash.com/photo-1565849904461-04a58ad377e0"
+      ],
+      "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf",
+      "category": "Electronics",
+      "addedAt": "2026-09-11T06:04:09.472Z",
+      "id": "IqdYUOgC3-o"
+    },
+    {
+      "productId": "102",
+      "name": "Men Casual Shirt",
+      "slug": "men-casual-shirt",
+      "brand": "Levis",
+      "category": "Men",
+      "subCategory": "Shirts",
+      "images": [
+        "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf",
+        "https://images.unsplash.com/photo-1596755094514-f87e34085b2c",
+        "https://images.unsplash.com/photo-1603252109303-2751441dd157",
+        "https://images.unsplash.com/photo-1589310243389-96a5483213a8"
+      ],
+      "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf",
+      "price": 1499,
+      "originalPrice": 2499,
+      "discountPercentage": 40,
+      "rating": 4.4,
+      "totalReviews": 532,
+      "shortDescription": "Comfortable cotton casual shirt for men.",
+      "description": "Stylish regular-fit cotton shirt suitable for casual and everyday wear.",
+      "stock": 20,
+      "stockStatus": "In Stock",
+      "colors": [
+        {
+          "name": "Blue",
+          "value": "#4169E1",
+          "available": true,
+          "additionalPrice": 0
+        },
+        {
+          "name": "White",
+          "value": "#FFFFFF",
+          "available": true,
+          "additionalPrice": 0
+        }
+      ],
+      "variants": [
+        {
+          "value": "M",
+          "price": 1499,
+          "available": true
+        },
+        {
+          "value": "L",
+          "price": 1499,
+          "available": true
+        },
+        {
+          "value": "XL",
+          "price": 1599,
+          "available": true
+        }
+      ],
+      "seller": {
+        "name": "Levis Authorized Seller",
+        "rating": 4.7,
+        "totalProducts": 500,
+        "verified": true
+      },
+      "selectedColor": "White",
+      "selectedSize": "M",
+      "addedAt": "2026-09-11T06:38:03.354Z",
+      "id": "jvzRLUs198g"
     }
   ],
   "orders": [
@@ -3179,6 +3391,76 @@
           "size": "256GB",
           "color": "Blue",
           "shortDescription": "Powerful Android smartphone with a premium display."
+        }
+      ]
+    },
+    {
+      "id": "wD_t8Fgrrcs",
+      "customerName": "Dev",
+      "phone": "7787398878",
+      "address": "Home",
+      "city": "Warangal",
+      "pincode": "506356",
+      "paymentMethod": "Cash on Delivery",
+      "date": "10/9/2026, 4:11:00 pm",
+      "status": "Processing",
+      "subtotal": 3499,
+      "discount": 1500,
+      "deliveryCharge": 0,
+      "total": 3499,
+      "items": [
+        {
+          "productId": "112",
+          "name": "Adidas Casual Sneakers",
+          "brand": "Adidas",
+          "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77",
+          "images": [
+            "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77",
+            "https://images.unsplash.com/photo-1495555961986-6d4c1ecb7be3",
+            "https://images.unsplash.com/photo-1549298916-b41d501d3772",
+            "https://images.unsplash.com/photo-1560769629-975ec94e6a86"
+          ],
+          "price": 3499,
+          "originalPrice": 4999,
+          "quantity": 1,
+          "size": "9",
+          "color": "White",
+          "shortDescription": "Classic casual sneakers for everyday use."
+        }
+      ]
+    },
+    {
+      "id": "Wn4xoFOrk4o",
+      "customerName": "Bunny",
+      "phone": "7767897434",
+      "address": "Home",
+      "city": "Hyd",
+      "pincode": "589809",
+      "paymentMethod": "Cash on Delivery",
+      "date": "10/9/2026, 4:33:09 pm",
+      "status": "Processing",
+      "subtotal": 1999,
+      "discount": 1000,
+      "deliveryCharge": 0,
+      "total": 1999,
+      "items": [
+        {
+          "productId": "103",
+          "name": "Men Slim Fit Jeans",
+          "brand": "Wrangler",
+          "image": "https://images.unsplash.com/photo-1542272604-787c3835535d",
+          "images": [
+            "https://images.unsplash.com/photo-1542272604-787c3835535d",
+            "https://images.unsplash.com/photo-1475178626620-a4d074967452",
+            "https://images.unsplash.com/photo-1541099649105-f69ad21f3246",
+            "https://images.unsplash.com/photo-1602293589930-45aad59ba3ab"
+          ],
+          "price": 1999,
+          "originalPrice": 2999,
+          "quantity": 1,
+          "size": "34",
+          "color": "Blue",
+          "shortDescription": "Classic slim-fit jeans for men."
         }
       ]
     }

@@ -1,141 +1,273 @@
+/* =====================================================
+   PRODUCTS PAGE
+===================================================== */
+
 .products-page {
-    padding: 30px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 30px 25px 60px;
+    box-sizing: border-box;
 }
+
+
+/* =====================================================
+   PAGE TITLE
+===================================================== */
 
 .products-page h1 {
     text-align: center;
-    margin-bottom: 25px;
+    margin: 0 0 25px;
+    color: #282c3f;
+    font-size: 28px;
+    font-weight: 700;
 }
 
-/* Filters */
 
-.filters {
+/* =====================================================
+   FILTERS
+===================================================== */
+
+.products-page .filters {
     display: flex;
-    gap: 15px;
     justify-content: center;
+    align-items: center;
+    gap: 15px;
     margin-bottom: 30px;
+    flex-wrap: wrap;
 }
 
-.filters input,
-.filters select {
-    padding: 12px 15px;
-    border: 1px solid #ddd;
-    border-radius: 6px;
+.products-page .filters input,
+.products-page .filters select {
+    height: 44px;
+    padding: 0 15px;
+
+    border: 1px solid #d4d5d9;
+    border-radius: 4px;
+
+    background: #fff;
+
+    font-size: 14px;
+    color: #282c3f;
+
+    outline: none;
+    box-sizing: border-box;
+}
+
+.products-page .filters input {
+    width: 320px;
+}
+
+.products-page .filters select {
+    width: 180px;
+}
+
+.products-page .filters input:focus,
+.products-page .filters select:focus {
+    border-color: #ff3f6c;
+}
+
+
+/* =====================================================
+   PRODUCT GRID
+===================================================== */
+
+.products-page .products-grid {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    gap: 24px;
+
+    align-items: stretch;
+
+    box-sizing: border-box;
+}
+
+
+/* =====================================================
+   GRID ITEM
+===================================================== */
+
+.products-page .products-grid > * {
+    width: 100%;
+    min-width: 0;
+}
+
+
+/* =====================================================
+   PRODUCT CARD
+===================================================== */
+
+.products-page .myntra-card {
+    width: 100%;
+    height: 100%;
+    min-width: 0;
+
+    box-sizing: border-box;
+}
+
+
+/* =====================================================
+   PRODUCT IMAGE
+===================================================== */
+
+.products-page .myntra-image-container {
+    width: 100%;
+    height: 300px;
+
+    overflow: hidden;
+}
+
+
+/* =====================================================
+   LOADING
+===================================================== */
+
+.products-page .loader-container {
+    min-height: 300px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.products-page .loader {
+    width: 45px;
+    height: 45px;
+
+    border: 4px solid #eee;
+    border-top: 4px solid #ff3f6c;
+
+    border-radius: 50%;
+
+    animation: productsPageSpin 0.8s linear infinite;
+}
+
+.products-page .loader-container p {
+    margin-top: 15px;
+
+    color: #555;
+
     font-size: 15px;
 }
 
-/* Product Grid */
+@keyframes productsPageSpin {
+    from {
+        transform: rotate(0deg);
+    }
 
-.product-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
+    to {
+        transform: rotate(360deg);
+    }
 }
 
-/* Product Card */
 
-.product-card {
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    overflow: hidden;
-    background: white;
-    transition: 0.3s;
-}
-/*  */
+/* =====================================================
+   NO PRODUCTS
+===================================================== */
 
-/* Image */
-
-.product-image-container {
-    width: 100%;
-    height: 260px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #f8f8f8;
-    overflow: hidden;
-}
-
-.product-image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    padding: 15px;
-}
-
-/* Product Info */
-
-.product-info {
-    padding: 15px;
-}
-
-.product-info h3 {
-    margin: 0 0 8px;
-    font-size: 17px;
-}
-
-.brand {
-    font-weight: bold;
-    margin: 5px 0;
-}
-
-.category {
-    color: #777;
-    margin: 5px 0;
-}
-
-.rating {
-    margin: 8px 0;
-}
-
-.price {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.original-price {
-    margin-left: 10px;
-    text-decoration: line-through;
-    color: #888;
-}
-
-.discount {
-    display: inline-block;
-    margin-top: 8px;
-    color: green;
-    font-weight: bold;
-}
-
-.view-button {
-    display: block;
+.products-page .no-data {
     text-align: center;
-    margin-top: 15px;
-    padding: 10px;
-    background: #111;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
+
+    margin-top: 50px;
+
+    color: #777;
+
+    font-size: 16px;
 }
 
-/* Responsive */
 
-@media (max-width: 1000px) {
-    .product-grid {
-        grid-template-columns: repeat(3, 1fr);
+/* =====================================================
+   RESPONSIVE - TABLET
+===================================================== */
+
+@media (max-width: 1200px) {
+
+    .products-page .products-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
+
 }
 
-@media (max-width: 700px) {
-    .product-grid {
-        grid-template-columns: repeat(2, 1fr);
+
+/* =====================================================
+   RESPONSIVE - SMALL TABLET
+===================================================== */
+
+@media (max-width: 900px) {
+
+    .products-page {
+        padding: 25px 20px 50px;
     }
 
-    .filters {
+    .products-page .products-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+        gap: 20px;
+    }
+
+    .products-page .myntra-image-container {
+        height: 280px;
+    }
+
+}
+
+
+/* =====================================================
+   RESPONSIVE - MOBILE
+===================================================== */
+
+@media (max-width: 600px) {
+
+    .products-page {
+        padding: 20px 12px 40px;
+    }
+
+    .products-page h1 {
+        font-size: 23px;
+    }
+
+    .products-page .filters {
         flex-direction: column;
+
+        width: 100%;
     }
+
+    .products-page .filters input,
+    .products-page .filters select {
+        width: 100%;
+    }
+
+    .products-page .products-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+        gap: 12px;
+    }
+
+    .products-page .myntra-image-container {
+        height: 230px;
+    }
+
 }
 
-@media (max-width: 450px) {
-    .product-grid {
+
+/* =====================================================
+   VERY SMALL MOBILE
+===================================================== */
+
+@media (max-width: 400px) {
+
+    .products-page .products-grid {
         grid-template-columns: 1fr;
     }
+
+    .products-page .myntra-image-container {
+        height: 300px;
+    }
+
 }

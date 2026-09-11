@@ -1,38 +1,71 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "../styles/ProductCard.css";
 import axios from "axios";
-import { useState } from "react";
+import "../styles/ProductCard.css";
 
 const ProductCard = ({ product }) => {
+
     const [isWishlisted, setIsWishlisted] = useState(false);
+
     const image =
         product.images && product.images.length > 0
             ? product.images[0]
-            : "https://via.placeholder.com/400x500?text=No+Image";
+            : product.image || "https://placehold.co/400x500?text=No+Image";
 
     const price = Number(product.price) || 0;
     const originalPrice = Number(product.originalPrice) || 0;
-    const discount = product.discountPercentage || 0;
+
+    const discount =
+        product.discountPercentage ||
+        (originalPrice > price
+            ? Math.round(
+                ((originalPrice - price) / originalPrice) * 100
+            )
+            : 0);
 
     const addToWishlist = async () => {
-
         try {
-            const response = await axios.get("http://localhost:5001/wishlist");
-            const alreadyExists = response.data.some((item) => item.productId === product.id);
-            if (alreadyExists) { alert("Product is already in wishlist"); ; return; }
-            const wishlistProduct = { productId: product.id, name: product.name, brand: product.brand, price: product.price, originalPrice: product.originalPrice, discountPercentage: product.discountPercentage, image: image, rating: product.rating, category: product.category };
-            await axios.post("http://localhost:5001/wishlist", wishlistProduct);
-            setIsWishlisted(true);
-            alert("Product added to wishlist ");
+
+            const response = await axios.get(
+                `http://localhost:5001/wishlist?productId=${product.id}`
+            );
+
+            if (response.data.length > 0) {
+                await axios.delete(
+                    `http://localhost:5001/wishlist/${response.data[0].id}`
+                );
+
+                setIsWishlisted(false);
+            } else {
+
+                await axios.post(
+                    "http://localhost:5001/wishlist",
+                    {
+                        productId: product.id,
+                        name: product.name,
+                        brand: product.brand,
+                        price: product.price,
+                        originalPrice: product.originalPrice,
+                        discountPercentage: product.discountPercentage,
+                        images: product.images || [],
+                        image: image,
+                        category: product.category,
+                        addedAt: new Date().toISOString()
+                    }
+                );
+
+                setIsWishlisted(true);
+            }
+
+        } catch (error) {
+            console.log("Wishlist error:", error);
         }
-        catch (error) {
-            console.error("Wishlist Error:", error); alert("Failed to add product to wishlist");
-        }
-    }
+    };
 
     return (
         <div className="myntra-card">
+
+            {/* IMAGE */}
             <div className="myntra-image-container">
 
                 <Link to={`/products/${product.id}`}>
@@ -41,81 +74,95 @@ const ProductCard = ({ product }) => {
                         alt={product.name}
                         className="myntra-product-image"
                         onError={(e) => {
-                            e.target.src =
-                                "https://via.placeholder.com/400x500?text=Image+Not+Found";
+                            e.currentTarget.src =
+                                "https://placehold.co/400x500?text=Image+Not+Available";
                         }}
                     />
                 </Link>
 
-                {/* Discount */}
+                {/* DISCOUNT */}
                 {discount > 0 && (
-                    <span className="discount-badge">
+                    <span className="myntra-discount">
                         {discount}% OFF
                     </span>
                 )}
 
-                {/* Wishlist */}
-                <button className={`wishlist-btn ${ isWishlisted ? "wishlisted" : "" }`} onClick={addToWishlist} > {isWishlisted ? "♥" : "♡"} </button>
-
-                {/* Rating */}
-                <div className="image-rating">
-                    ⭐ {product.rating}
-                </div>
+                {/* WISHLIST */}
+                <button
+                    className={`myntra-wishlist ${
+                        isWishlisted ? "wishlist-active" : ""
+                    }`}
+                    onClick={addToWishlist}
+                    aria-label="Wishlist"
+                >
+                    {isWishlisted ? "♥" : "♡"}
+                </button>
 
             </div>
 
-        
-            <div className="myntra-details">
 
-                {/* Brand */}
-                <h3 className="product-name">
-                     {product.name}
-                    
+            {/* PRODUCT INFORMATION */}
+            <div className="myntra-product-info">
+
+                <p className="myntra-brand">
+                    {product.brand}
+                </p>
+
+                <h3 className="myntra-product-name">
+                    {product.name}
                 </h3>
 
-                {/* Product Name */}
-                <p className="product-brand">
-                   {product.brand}
-                </p>
-                <p className="product-description">
-                    {product.shortDescription}
-                </p>
+                {product.shortDescription && (
+                    <p className="myntra-description">
+                        {product.shortDescription}
+                    </p>
+                )}
 
-                {/* Category */}
-                <p className="product-category">
-                    {product.category}
-                </p>
+                {/* RATING */}
+                {product.rating && (
+                    <div className="myntra-rating">
+                        <span>★</span>
+                        <span>{product.rating}</span>
 
-                {/* Price */}
-                <div className="price-row">
+                        {product.totalReviews && (
+                            <span className="review-count">
+                                | {product.totalReviews} Reviews
+                            </span>
+                        )}
+                    </div>
+                )}
 
-                    <span className="current-price">
+                {/* PRICE */}
+                <div className="myntra-price-row">
+
+                    <span className="myntra-price">
                         ₹{price.toLocaleString("en-IN")}
                     </span>
 
                     {originalPrice > price && (
-                        <span className="original-price">
+                        <span className="myntra-original-price">
                             ₹{originalPrice.toLocaleString("en-IN")}
                         </span>
                     )}
 
                     {discount > 0 && (
-                        <span className="discount-text">
+                        <span className="myntra-price-discount">
                             ({discount}% OFF)
                         </span>
                     )}
 
                 </div>
 
-                {/* View Button */}
+                {/* VIEW BUTTON */}
                 <Link
                     to={`/products/${product.id}`}
-                    className="view-product-btn"
+                    className="myntra-view-button"
                 >
                     View Details
                 </Link>
 
             </div>
+
         </div>
     );
 };

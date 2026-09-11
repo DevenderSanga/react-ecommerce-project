@@ -1,0 +1,106 @@
+.navbar {
+    height: 60px;
+    background: #212529;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6%;
+}
+
+/* LOGO */
+
+.navbar-brand a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.orders-link{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 30px;
+}
+
+
+/* NAVBAR LINKS */
+
+.navbar-links {
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+}
+
+
+.navbar-links a {
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 16px;
+}
+
+
+/* CART */
+
+.cart-link {
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 5px;
+
+    padding: 10px 14px;
+
+    border-radius: 6px;
+
+    transition: 0.2s;
+}
+
+
+.cart-link:hover {
+    background: #ffc107;
+
+    color: #212529;
+}
+
+
+
+
+.cart-icon {
+    font-size: 20px;
+}
+
+
+/* CART COUNT */
+
+.cart-count {
+    position: absolute;
+
+    top: -5px;
+
+    right: -5px;
+
+    min-width: 20px;
+    height: 20px;
+
+    /* padding: 0 5px; */
+
+    background: #ff3f6c;
+
+    color: white;
+
+    border-radius: 50%;
+
+    font-size: 11px;
+    font-weight: bold;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
