@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import "../styles/Navbar.css";
+import logo from "../assets/dev-shop-logo.png";
 
 const Navbar = () => {
 
@@ -66,7 +67,11 @@ const Navbar = () => {
             <div className="navbar-brand">
 
                 <Link to="/">
-                    Devender
+                    <img
+                        src={logo}
+                        alt="Dev Shop"
+                        className="navbar-logo"
+                    />
                 </Link>
 
             </div>
@@ -107,9 +112,7 @@ const Navbar = () => {
                 </Link>
 
 
-                <Link to="/orders"
-                className="orders-link"
-                >
+                <Link to="/orders">
                     Orders
                 </Link>
 

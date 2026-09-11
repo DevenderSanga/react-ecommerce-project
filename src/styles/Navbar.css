@@ -7,7 +7,13 @@
     padding: 0 6%;
 }
 
-/* LOGO */
+
+.navbar-logo {
+    width: 80px;
+    height: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+}
 
 .navbar-brand a {
     color: white;
