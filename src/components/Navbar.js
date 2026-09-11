@@ -112,7 +112,9 @@ const Navbar = () => {
                 </Link>
 
 
-                <Link to="/orders">
+                <Link to="/orders"
+                
+                className="orders-link">
                     Orders
                 </Link>
 
