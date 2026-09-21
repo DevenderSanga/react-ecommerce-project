@@ -1145,7 +1145,7 @@
       "name": "Women Sneakers",
       "slug": "women-sneakers",
       "brand": "Skechers",
-      "category": "Women",
+      "category": "Shoes",
       "subCategory": "Shoes",
       "images": [
         "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2",
@@ -2983,83 +2983,6 @@
       "id": "d4S9qKLxZGg"
     },
     {
-      "productId": "102",
-      "name": "Men Casual Shirt",
-      "slug": "men-casual-shirt",
-      "brand": "Levis",
-      "category": "Men",
-      "subCategory": "Shirts",
-      "images": [
-        "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf",
-        "https://images.unsplash.com/photo-1596755094514-f87e34085b2c",
-        "https://images.unsplash.com/photo-1603252109303-2751441dd157",
-        "https://images.unsplash.com/photo-1589310243389-96a5483213a8"
-      ],
-      "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf",
-      "price": 1499,
-      "originalPrice": 2499,
-      "discountPercentage": 40,
-      "rating": 4.4,
-      "totalReviews": 532,
-      "shortDescription": "Comfortable cotton casual shirt for men.",
-      "description": "Stylish regular-fit cotton shirt suitable for casual and everyday wear.",
-      "stock": 20,
-      "stockStatus": "In Stock",
-      "colors": [
-        {
-          "name": "Blue",
-          "value": "#4169E1",
-          "available": true,
-          "additionalPrice": 0
-        },
-        {
-          "name": "White",
-          "value": "#FFFFFF",
-          "available": true,
-          "additionalPrice": 0
-        }
-      ],
-      "variants": [
-        {
-          "value": "M",
-          "price": 1499,
-          "available": true
-        },
-        {
-          "value": "L",
-          "price": 1499,
-          "available": true
-        },
-        {
-          "value": "XL",
-          "price": 1599,
-          "available": true
-        }
-      ],
-      "seller": {
-        "name": "Levis Authorized Seller",
-        "rating": 4.7,
-        "totalProducts": 500,
-        "verified": true
-      },
-      "selectedColor": "Blue",
-      "selectedSize": "M",
-      "addedAt": "2026-09-07T10:27:23.924Z",
-      "id": "NhzM9oTUq48"
-    },
-    {
-      "productId": "101",
-      "name": "Samsung Galaxy S24",
-      "brand": "Samsung",
-      "price": 74999,
-      "originalPrice": 84999,
-      "discountPercentage": 12,
-      "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf",
-      "rating": 4.6,
-      "category": "Electronics",
-      "id": "h3Rd5FSzrww"
-    },
-    {
       "productId": "107",
       "name": "Women Handbag",
       "brand": "Lavie",
@@ -3072,77 +2995,30 @@
       "id": "CEOSj50n8mo"
     },
     {
-      "productId": "102",
-      "name": "Men Casual Shirt",
-      "slug": "men-casual-shirt",
-      "brand": "Levis",
-      "category": "Men",
-      "subCategory": "Shirts",
+      "productId": "105",
+      "name": "Men Formal Blazer",
+      "brand": "Van Heusen",
+      "price": 4999,
+      "originalPrice": 7999,
+      "discountPercentage": 38,
       "images": [
-        "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf",
-        "https://images.unsplash.com/photo-1596755094514-f87e34085b2c",
-        "https://images.unsplash.com/photo-1603252109303-2751441dd157",
-        "https://images.unsplash.com/photo-1589310243389-96a5483213a8"
+        "https://images.unsplash.com/photo-1507679799987-c73779587ccf",
+        "https://images.unsplash.com/photo-1598808503746-f34c53b9323e",
+        "https://images.unsplash.com/photo-1555069519-127aadedf1ee",
+        "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc"
       ],
-      "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf",
-      "price": 1499,
-      "originalPrice": 2499,
-      "discountPercentage": 40,
-      "rating": 4.4,
-      "totalReviews": 532,
-      "shortDescription": "Comfortable cotton casual shirt for men.",
-      "description": "Stylish regular-fit cotton shirt suitable for casual and everyday wear.",
-      "stock": 20,
-      "stockStatus": "In Stock",
-      "colors": [
-        {
-          "name": "Blue",
-          "value": "#4169E1",
-          "available": true,
-          "additionalPrice": 0
-        },
-        {
-          "name": "White",
-          "value": "#FFFFFF",
-          "available": true,
-          "additionalPrice": 0
-        }
-      ],
-      "variants": [
-        {
-          "value": "M",
-          "price": 1499,
-          "available": true
-        },
-        {
-          "value": "L",
-          "price": 1499,
-          "available": true
-        },
-        {
-          "value": "XL",
-          "price": 1599,
-          "available": true
-        }
-      ],
-      "seller": {
-        "name": "Levis Authorized Seller",
-        "rating": 4.7,
-        "totalProducts": 500,
-        "verified": true
-      },
-      "selectedColor": "Blue",
-      "selectedSize": "XL",
-      "addedAt": "2026-09-10T11:03:56.048Z",
-      "id": "5YqMmzK2P_M"
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf",
+      "category": "Men",
+      "addedAt": "2026-09-17T04:41:37.932Z",
+      "id": "TkI-vay24hI"
     },
     {
       "productId": "101",
       "name": "Samsung Galaxy S24",
+      "slug": "samsung-galaxy-s24",
       "brand": "Samsung",
-      "price": 74999,
-      "originalPrice": 84999,
-      "discountPercentage": 12,
+      "category": "Electronics",
+      "subCategory": "Smartphones",
       "images": [
         "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf",
         "https://images.unsplash.com/photo-1598327105666-5b89351aff97",
@@ -3150,74 +3026,51 @@
         "https://images.unsplash.com/photo-1565849904461-04a58ad377e0"
       ],
       "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf",
-      "category": "Electronics",
-      "addedAt": "2026-09-11T06:04:09.472Z",
-      "id": "IqdYUOgC3-o"
-    },
-    {
-      "productId": "102",
-      "name": "Men Casual Shirt",
-      "slug": "men-casual-shirt",
-      "brand": "Levis",
-      "category": "Men",
-      "subCategory": "Shirts",
-      "images": [
-        "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf",
-        "https://images.unsplash.com/photo-1596755094514-f87e34085b2c",
-        "https://images.unsplash.com/photo-1603252109303-2751441dd157",
-        "https://images.unsplash.com/photo-1589310243389-96a5483213a8"
-      ],
-      "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf",
-      "price": 1499,
-      "originalPrice": 2499,
-      "discountPercentage": 40,
-      "rating": 4.4,
-      "totalReviews": 532,
-      "shortDescription": "Comfortable cotton casual shirt for men.",
-      "description": "Stylish regular-fit cotton shirt suitable for casual and everyday wear.",
+      "price": 84999,
+      "originalPrice": 84999,
+      "discountPercentage": 12,
+      "rating": 4.6,
+      "totalReviews": 1248,
+      "shortDescription": "Powerful Android smartphone with a premium display.",
+      "description": "Samsung Galaxy S24 delivers flagship performance with an AMOLED display and advanced cameras.",
       "stock": 20,
       "stockStatus": "In Stock",
       "colors": [
         {
-          "name": "Blue",
-          "value": "#4169E1",
+          "name": "Black",
+          "value": "#000000",
           "available": true,
           "additionalPrice": 0
         },
         {
-          "name": "White",
-          "value": "#FFFFFF",
+          "name": "Blue",
+          "value": "#3F51B5",
           "available": true,
           "additionalPrice": 0
         }
       ],
       "variants": [
         {
-          "value": "M",
-          "price": 1499,
+          "value": "128GB",
+          "price": 74999,
           "available": true
         },
         {
-          "value": "L",
-          "price": 1499,
-          "available": true
-        },
-        {
-          "value": "XL",
-          "price": 1599,
+          "value": "256GB",
+          "price": 84999,
           "available": true
         }
       ],
       "seller": {
-        "name": "Levis Authorized Seller",
+        "name": "Samsung Authorized Seller",
         "rating": 4.7,
         "totalProducts": 500,
         "verified": true
       },
-      "selectedColor": "White",
-      "selectedSize": "M",
-      "addedAt": "2026-09-11T06:38:03.354Z",
-      "id": "jvzRLUs198g"
+      "selectedColor": "Blue",
+      "selectedSize": "256GB",
+      "addedAt": "2026-09-17T06:47:16.792Z",
+      "id": "nlZNfVZI9F8"
     }
   ],
   "orders": [
@@ -3429,6 +3282,41 @@
           "size": "34",
           "color": "Blue",
           "shortDescription": "Classic slim-fit jeans for men."
+        }
+      ]
+    },
+    {
+      "id": "V_-K0xV4Wss",
+      "customerName": "Raju",
+      "phone": "7768984078",
+      "address": "Home1",
+      "city": "Jaya Shankar",
+      "pincode": "506356",
+      "paymentMethod": "Cash on Delivery",
+      "date": "17/9/2026, 4:20:20 pm",
+      "status": "Processing",
+      "subtotal": 62999,
+      "discount": 2000,
+      "deliveryCharge": 0,
+      "total": 62999,
+      "items": [
+        {
+          "productId": "116",
+          "name": "Dell Inspiron 15 Laptop",
+          "brand": "Dell",
+          "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
+          "images": [
+            "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
+            "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+            "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6",
+            "https://images.unsplash.com/photo-1541807084-5c52b6b3adef"
+          ],
+          "price": 62999,
+          "originalPrice": 64999,
+          "quantity": 1,
+          "size": "16GB/512GB",
+          "color": "Black",
+          "shortDescription": "Powerful laptop for work, study and entertainment."
         }
       ]
     }
